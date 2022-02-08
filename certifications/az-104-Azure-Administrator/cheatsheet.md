@@ -10,6 +10,8 @@
 - Hybrid AD-AAD use **AD Connect** - Hash sync, pass-through auth (PTA), Federation
 - Built-in **AAD Roles** : *global admin*, *user admin*, *billing admin*
   - Global Admin: can reset all passwords / elevated access. Can grant admin roles. On root (above Management Groups)
+- [Administrative Units](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units) - AD resource that contains other AD resources (users/groups)
+- [Identity Governance](https://docs.microsoft.com/en-us/azure/active-directory/governance/identity-governance-overview)
 
 ### Azure RBAC (Role-Based Access Control)
 - Follow least privileges policy : Grant narrow access for role
@@ -47,4 +49,10 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 
 
-## Resources
+## Implement and manage storage (15–20%)
+
+## Deploy and manage Azure compute resources (20–25%)
+
+## Configure and manage virtual networking (25–30%)
+
+## Monitor and back up Azure resources (10–15%)
