@@ -1,1 +1,1 @@
-#AZ-104 Microsoft Azure Administrator Certification Cheat Sheet
+# AZ-104 Microsoft Azure Administrator Certification Cheat Sheet
