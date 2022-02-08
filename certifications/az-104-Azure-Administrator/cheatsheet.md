@@ -1,16 +1,9 @@
 # AZ-104 Microsoft Azure Administrator Certification Cheat Sheet
 
-## Foundations
+[Exam Outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4pCWy)
 
-### Scopes
-Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
-### Resouce Manager
-- Handles deployments of resources
-
-### Azure Advisor
-- 5 pilars : "Azure well-architected framework"
-  - Cost optimization, Operational excellence, Performance efficiency, Security, Reliability
+## Manage Azure identities and governance (15–20%)
 
 ### AD (Active Directory) vs AAD (Azure Active Directory)
 - Fundamental differences : REST API vs NTLM\Kerberos\LDAP. Also Group Policy Object vs Intune
@@ -37,7 +30,21 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ### Azure Blueprint
 
 
+### Azure Advisor
+- 5 pilars : "Azure well-architected framework"
+  - Cost optimization, Operational excellence, Performance efficiency, Security, Reliability
+
+
+
 ### Azure Service Health
+
+
+### Scopes
+Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
+
+### Resouce Manager
+- Handles deployments of resources
+
 
 
 ## Resources
