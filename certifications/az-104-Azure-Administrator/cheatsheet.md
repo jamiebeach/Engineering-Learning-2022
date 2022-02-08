@@ -3,7 +3,7 @@
 [Exam Outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4pCWy)
 
 
-## Manage Azure identities and governance (15–20%)
+## 🔖 Manage Azure identities and governance (15–20%)
 
 ### AD (Active Directory) vs AAD (Azure Active Directory)
 - Fundamental differences : REST API vs NTLM\Kerberos\LDAP. Also Group Policy Object vs Intune
@@ -49,10 +49,10 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 
 
-## Implement and manage storage (15–20%)
+## 🔖 Implement and manage storage (15–20%)
 
-## Deploy and manage Azure compute resources (20–25%)
+## 🔖 Deploy and manage Azure compute resources (20–25%)
 
-## Configure and manage virtual networking (25–30%)
+## 🔖 Configure and manage virtual networking (25–30%)
 
-## Monitor and back up Azure resources (10–15%)
+## 🔖 Monitor and back up Azure resources (10–15%)
