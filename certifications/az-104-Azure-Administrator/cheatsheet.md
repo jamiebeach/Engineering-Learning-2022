@@ -29,17 +29,19 @@
 - Policy Definition -> Policy Initiative -> Policy\Initiative Assignment
 - **Initiative** is a set of policy definitions, grouped together. (ex. all billing policies in an initiative)
 
-### Azure Blueprint
-
+### [Azure Blueprints](https://cloudacademy.com/blog/what-are-azure-blueprints/)
+- Build and deploy collections of Azure resources adhering to requirements and standards
+- Includes role assignments, resource groups, policy assignments, etc..
+- Used by admins and architects to design solutions
+- Similar to ARM templates, but exist natively on Azure
 
 ### Azure Advisor
 - 5 pilars : "Azure well-architected framework"
   - Cost optimization, Operational excellence, Performance efficiency, Security, Reliability
 
-
-
 ### Azure Service Health
-
+- Personalized dashboard for ssubscription - all resources across all subscriptions and regions
+- Notifications of issues or upcoming maintenance
 
 ### Scopes
 Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
