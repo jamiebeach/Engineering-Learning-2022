@@ -57,4 +57,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ## 🔖 Configure and manage virtual networking (25–30%)
 
+### Load Balancer
+- underlying VM's need to be in an availability set
+
 ## 🔖 Monitor and back up Azure resources (10–15%)
