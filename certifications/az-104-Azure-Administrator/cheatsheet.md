@@ -49,9 +49,46 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ### Resouce Manager
 - Handles deployments of resources
 
-
+### Azure Key Vault
+- Integrated into AD - store secrets, keys and certificates (w multiple versions)
+- [FIPS 140-2 compliant](https://csrc.nist.gov/publications/detail/fips/140/2/final)
+- Set access policies or RBAC for data plane. Management plane RBAC only.
 
 ## 🔖 Implement and manage storage (15–20%)
+
+### Azure Storage
+
+#### Azure BLOB Storage
+- binary/text data
+- [REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-service-rest-api)\CLI\ARM
+- Common for backup\restore\largef files\logging
+- ADLS (Azure Data Lake) is on Blob Storage
+- [Types](https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs): 
+  - Block:  large objects \ optimal for streaming. Up to 190.7 TiB
+  - Append: keep updating to files (ex logging)
+  - [Page](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview?tabs=dotnet): collection of 512-byte pages for read/write arbitrary byte ranges. Optimal for data structures like OS and data disk images. ex Azure SQL DB. Up to 8 TiB
+- Access levels: Private, Blob (anon read), Container (anon read for container and blob)
+- Access tiers: Hot/Cool and Archive (Cool - between 30 and 180 days storage)
+- Zone replication: 
+| | **LRS** | **ZRS** | **GRS/RA-GRS** | **GZRS/RA-GZRS**|
+|--|--|--|--|--|--|--|
+|Node outage|✅|✅|✅|✅|
+|Data center outage| |✅|✅|✅|
+|Region-wide outage| | |✅|✅|
+**For RA- variants read access for secondary region is available if primary region goes down*
+- Lifecycle management: moving between hot\cool\archive
+
+#### Azure File Storage
+- File share accessible over [SMB](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)) or [NFS](https://docs.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview)
+
+#### Azure Disk Storage
+
+#### Azure Queue Storage
+
+#### Azure Table Storage
+
+#### Azure Archive Storage
+
 
 ## 🔖 Deploy and manage Azure compute resources (20–25%)
 
