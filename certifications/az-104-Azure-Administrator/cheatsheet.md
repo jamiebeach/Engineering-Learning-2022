@@ -70,13 +70,14 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Access levels: Private, Blob (anon read), Container (anon read for container and blob)
 - Access tiers: Hot/Cool and Archive (Cool - between 30 and 180 days storage)
 - Zone replication: 
+
 | | **LRS** | **ZRS** | **GRS/RA-GRS** | **GZRS/RA-GZRS**|
 |--|--|--|--|--|--|--|
 |Node outage|✅|✅|✅|✅|
 |Data center outage| |✅|✅|✅|
 |Region-wide outage| | |✅|✅|
 
-**For RA- variants read access for secondary region is available if primary region goes down*
+- **For RA- variants read access for secondary region is available if primary region goes down*
 - Lifecycle management: moving between hot\cool\archive
 
 #### Azure File Storage
