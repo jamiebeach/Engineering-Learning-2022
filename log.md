@@ -1,7 +1,10 @@
-### 2022-01-08
+### 2022-02-10
+- Made it through some more whizlabs videos for az104 - virtual networking, load balancers, application gateway and vpn
+
+### 2022-02-08
 - Started working on a ["cheat sheet" of sorts, for az104 certification here.](https://github.com/jamiebeach/100-Days-of-Azure/blob/master/certifications/az-104-Azure-Administrator/cheatsheet.md)
 
-### 2022-01-07
+### 2022-02-07
 - Continued down az104 path with attempting a practice exam on whizlabs. Only went through half the questions but managed to get nearly all of them. Mostly policies, locks, moving resources, etc...
 - Also went through the rest of the networking course videos on whizlabs for the same az104.
 - Listened to latest Cloudcast and [Azure podcasts](https://www.podchaser.com/podcasts/the-azure-podcast-725242/episodes/episode-410-fusion-dev-128109256).
