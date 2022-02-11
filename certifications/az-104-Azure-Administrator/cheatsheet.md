@@ -75,6 +75,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 |Node outage|✅|✅|✅|✅|
 |Data center outage| |✅|✅|✅|
 |Region-wide outage| | |✅|✅|
+
 **For RA- variants read access for secondary region is available if primary region goes down*
 - Lifecycle management: moving between hot\cool\archive
 
