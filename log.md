@@ -1,5 +1,6 @@
 ### 2022-02-10
 - Made it through some more whizlabs videos for az104 - virtual networking, load balancers, application gateway and vpn
+- Updated the [learning resources page](https://github.com/jamiebeach/100-Days-of-Azure/blob/master/certifications/Learning-Resources.md) with some links to some practice exams and courses.
 
 ### 2022-02-08
 - Started working on a ["cheat sheet" of sorts, for az104 certification here.](https://github.com/jamiebeach/100-Days-of-Azure/blob/master/certifications/az-104-Azure-Administrator/cheatsheet.md)
