@@ -57,7 +57,16 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ## 🔖 Configure and manage virtual networking (25–30%)
 
-### Load Balancer
-- underlying VM's need to be in an availability set
+### Load Balancers
+- Load balancer works at Layer 4
+- Basic LB - underlying VM's need to be in an availability set, Standard LB - no availabilty set required
+- Standard LB requires Standard public network interface on VM
 
+### Application Gateway
+- Layer 7
+- Route based on URL and other attributes.
+
+### Point-to-Site VPN
+
+### Site-to-Site VPN
 ## 🔖 Monitor and back up Azure resources (10–15%)
