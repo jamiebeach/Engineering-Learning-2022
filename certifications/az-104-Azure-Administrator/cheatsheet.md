@@ -54,6 +54,14 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ### Resouce Manager
 - Handles deployments of resources
 
+### Scaling
+
+| SLA   | Scaling type |
+| ----- | ------------------------------------------ |
+| 99.9% | Single VM (with Premium SSD or Ultra Disk) |
+| 99.95% | Availability Set |
+| 99.99% | Availability Zones |
+
 ### Azure Key Vault
 - Integrated into AD - store secrets, keys and certificates (w multiple versions)
 - [FIPS 140-2 compliant](https://csrc.nist.gov/publications/detail/fips/140/2/final)
@@ -105,6 +113,8 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Load balancer works at Layer 4
 - Basic LB - underlying VM's need to be in an availability set, Standard LB - no availabilty set required
 - Standard LB requires Standard public network interface on VM
+- LB's require VM's in same virtual network
+- [Availability Sets](https://docs.microsoft.com/en-us/azure/load-balancer/tutorial-multi-availability-sets-portal): only apply to VM's. Takes the virtual machine and configures multiple copies of it. Each copy is isolated within a separate physical server, compute rack, storage units and network switches within a single datacentre within an Azure Region. ([tutorial](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets))
 
 ### Application Gateway
 - Layer 7
