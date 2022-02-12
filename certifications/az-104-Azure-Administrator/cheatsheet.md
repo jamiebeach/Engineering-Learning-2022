@@ -132,7 +132,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Route based on URL and other attributes.
 
 ### Network Verification
-- IP Flow: checks if a packet is allowed or denied to or from a virtual machine
+- [IP Flow Verify](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview#:~:text=IP%20flow%20verify%20checks%20if,denied%20the%20packet%20is%20returned.): checks if a packet is allowed or denied to or from a virtual machine
 - Network Watcher Connection Monitor:  provides unified end-to-end connection monitoring in Azure Network Watcher
 - Network Configuration Diagnostic Tool: understand which traffic flows will be allowed or denied in your Azure Virtual Network
 - Network Watcher Next Hop: Checking if traffic is being directed to the intended destination.
