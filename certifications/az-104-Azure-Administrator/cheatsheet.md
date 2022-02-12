@@ -131,6 +131,12 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Layer 7
 - Route based on URL and other attributes.
 
+### Network Verification
+- IP Flow: checks if a packet is allowed or denied to or from a virtual machine
+- Network Watcher Connection Monitor:  provides unified end-to-end connection monitoring in Azure Network Watcher
+- Network Configuration Diagnostic Tool: understand which traffic flows will be allowed or denied in your Azure Virtual Network
+- Network Watcher Next Hop: Checking if traffic is being directed to the intended destination.
+
 ### Point-to-Site VPN
 
 ### Site-to-Site VPN
