@@ -17,6 +17,8 @@
 - [Dynamic Group](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-create-rule) : O365 group - When an attribute changes for a user or device, all dynamic group rules in the organization are processed for membership changes.
 - [Administrative Units](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units) - AD resource that contains other AD resources (users/groups)
 - [Identity Governance](https://docs.microsoft.com/en-us/azure/active-directory/governance/identity-governance-overview)
+- SSPR (Self-serve password reset). Administrators have strong 2-gate password reset always, which may differ from configured SSPR policies.
+
 
 ### Azure RBAC (Role-Based Access Control)
 - Follow least privileges policy : Grant narrow access for role
@@ -70,6 +72,8 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ## 🔖 Implement and manage storage (15–20%)
 
 ### Azure Storage
+
+- Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter.
 
 #### Azure BLOB Storage
 - binary/text data
