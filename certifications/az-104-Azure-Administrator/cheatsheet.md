@@ -71,6 +71,10 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - [FIPS 140-2 compliant](https://csrc.nist.gov/publications/detail/fips/140/2/final)
 - Set access policies or RBAC for data plane. Management plane RBAC only.
 
+### Locks
+- Locks can be put on resources. 
+- Delete lock on a resource still allows it be moved.
+
 ## 🔖 Implement and manage storage (15–20%)
 
 ### Azure Storage
@@ -101,6 +105,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 #### Azure File Storage
 - File share accessible over [SMB](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)) or [NFS](https://docs.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview)
+  - UNC path mounted with File Explorer : \\host-name\share-name\file-name
 
 #### Azure Disk Storage
 
