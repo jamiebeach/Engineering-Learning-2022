@@ -8,8 +8,13 @@
 ### AD (Active Directory) vs AAD (Azure Active Directory)
 - Fundamental differences : REST API vs NTLM\Kerberos\LDAP. Also Group Policy Object vs Intune
 - Hybrid AD-AAD use **AD Connect** - Hash sync, pass-through auth (PTA), Federation
-- Built-in **AAD Roles** : *global admin*, *user admin*, *billing admin*
+- [Built-in **AAD Roles**](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference) : examples: *global admin*, *user admin*, *billing admin*
   - Global Admin: can reset all passwords / elevated access. Can grant admin roles. On root (above Management Groups)
+- [Join Types](https://o365blog.com/post/devices/#join-types): 
+  - Registered (personal device - non organization account)
+  - Joined (organizatino device, sign-in w Azure AD account - cloud only)
+  - Hybrid Joined (organization device, Active Directory Domain Services account - both on-prem and cloud)
+- [Dynamic Group](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-create-rule) : O365 group - When an attribute changes for a user or device, all dynamic group rules in the organization are processed for membership changes.
 - [Administrative Units](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units) - AD resource that contains other AD resources (users/groups)
 - [Identity Governance](https://docs.microsoft.com/en-us/azure/active-directory/governance/identity-governance-overview)
 
