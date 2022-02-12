@@ -64,6 +64,8 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 | 99.95% | Availability Set |
 | 99.99% | Availability Zones |
 
+- Scale Sets spread load over multiple fault domains, but have no defined SLA besides the underlying VM SLA's.
+
 ### Azure Key Vault
 - Integrated into AD - store secrets, keys and certificates (w multiple versions)
 - [FIPS 140-2 compliant](https://csrc.nist.gov/publications/detail/fips/140/2/final)
