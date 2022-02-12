@@ -28,7 +28,7 @@
 - **Scope** - set of resources for access. Follows parent-child relationship in scope hierarchy
 - Role assignments can be *Allow* or *Deny*
 - RBAC is free with Azure subscriptions
-- Built-in roles : *owner*, *contributor*, *reader*, *user access administrator*
+- [Built-in roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles) : *owner*, *contributor*, *reader*, *user access administrator*. Also specialized roles (ex. Network Contributor)
 
 ### Azure Policy
 - Free. Define\assign\manage standards (like ISO\HIPPA\GDPR) for resources
