@@ -85,7 +85,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - binary/text data
 - [REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-service-rest-api)\CLI\ARM
 - Common for backup\restore\largef files\logging
-- ADLS (Azure Data Lake) is on Blob Storage
+- [ADLS (Azure Data Lake)](https://docs.microsoft.com/en-us/azure/architecture/data-guide/scenarios/data-lake) is on Blob Storage
 - [Types](https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs): 
   - Block:  large objects \ optimal for streaming. Up to 190.7 TiB
   - Append: keep updating to files (ex logging)
@@ -121,14 +121,14 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ## 🔖 Configure and manage virtual networking (25–30%)
 
 ### Load Balancers
-- Load balancer works at Layer 4
+- Load balancer works at [Layer 4](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
 - Basic LB - underlying VM's need to be in an availability set, Standard LB - no availabilty set required
 - Standard LB requires Standard public network interface on VM
 - LB's require VM's in same virtual network
 - [Availability Sets](https://docs.microsoft.com/en-us/azure/load-balancer/tutorial-multi-availability-sets-portal): only apply to VM's. Takes the virtual machine and configures multiple copies of it. Each copy is isolated within a separate physical server, compute rack, storage units and network switches within a single datacentre within an Azure Region. ([tutorial](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets))
 
 ### Application Gateway
-- Layer 7
+- [Layer 7](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
 - Route based on URL and other attributes.
 
 ### Network Verification
