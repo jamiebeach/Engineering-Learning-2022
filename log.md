@@ -4,6 +4,7 @@
 - Video: **Azure Cosmos DB extension for Azure Functions update with AAD support | Azure Friday -** [https://youtu.be/w002dYaP9mw](https://youtu.be/w002dYaP9mw)
 - Free O'Reilly ebook : Azure AI Services at Scale for Cloud, Mobile, and Edge [https://azure.microsoft.com/en-us/resources/azure-ai-services-at-scale-for-cloud-mobile-and-edge/en-us/](https://azure.microsoft.com/en-us/resources/azure-ai-services-at-scale-for-cloud-mobile-and-edge/en-us/)
 - Neat framework that sits on Teraform as sort of an abstraction layer. Not sure how much being used: Opta [https://docs.opta.dev/](https://docs.opta.dev/)
+- Secure baseline AKS architecture: https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks
 
 ### 2022-02-10
 - Made it through some more whizlabs videos for az104 - virtual networking, load balancers, application gateway and vpn
