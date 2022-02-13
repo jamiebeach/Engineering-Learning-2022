@@ -1,3 +1,10 @@
+### 2022-02-12
+- Worked more on the az104 cheatsheet.
+- Really great episode of Azure Podcast: 411 - Event Driven Architectures on Azure - https://azpodcast.azurewebsites.net/post/Episode-411-Event-Driven-Architectures-on-Azure
+- Video: **Azure Cosmos DB extension for Azure Functions update with AAD support | Azure Friday -** [https://youtu.be/w002dYaP9mw](https://youtu.be/w002dYaP9mw)
+- Free O'Reilly ebook : Azure AI Services at Scale for Cloud, Mobile, and Edge [https://azure.microsoft.com/en-us/resources/azure-ai-services-at-scale-for-cloud-mobile-and-edge/en-us/](https://azure.microsoft.com/en-us/resources/azure-ai-services-at-scale-for-cloud-mobile-and-edge/en-us/)
+- Neat framework that sits on Teraform as sort of an abstraction layer. Not sure how much being used: Opta [https://docs.opta.dev/](https://docs.opta.dev/)
+
 ### 2022-02-10
 - Made it through some more whizlabs videos for az104 - virtual networking, load balancers, application gateway and vpn
 - Updated the [learning resources page](https://github.com/jamiebeach/100-Days-of-Azure/blob/master/certifications/Learning-Resources.md) with some links to some practice exams and courses.
