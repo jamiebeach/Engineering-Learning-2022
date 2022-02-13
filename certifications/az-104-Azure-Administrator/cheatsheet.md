@@ -108,13 +108,26 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
   - UNC path mounted with File Explorer : \\host-name\share-name\file-name
 
 #### Azure Disk Storage
+- .vhd virtual VM disks (and images) are stored in Page BLOB's.
+- Managed disks preferred for VM data or OS disks (don't have to setup or manage the storage account)
+  - Standard HDD, Standards SSD, Premium SSD, Ultra SSD (Cannot be used for OS disk, only data disk)
+- Azure Backup takes snapshots for backups
 
 #### Azure Queue Storage
+- Simple, cheap message and queue storage
+- Limits:
+  - queue size 500GB
+  - message size 64KB
 
 #### Azure Table Storage
+- Simple NoSQL db (key-value)
+- Petabyte limits
+- Highly available
 
 #### Azure Archive Storage
-
+- Use for archived (super low frequency access)
+- 180 day minimum data retention
+- High fee disk operations
 
 ## 🔖 Deploy and manage Azure compute resources (20–25%)
 
