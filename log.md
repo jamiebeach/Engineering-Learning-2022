@@ -1,3 +1,8 @@
+### 2022-02-13
+- Almost completed the video portion of the whizlabs az104 course. About 15 minutes to go, really.
+- Read through some of the things on the PowerApps roadmap here: https://docs.microsoft.com/en-us/power-platform-release-plan/2021wave2/power-apps/planned-features?ocid=AID3045259
+
+
 ### 2022-02-12
 - Worked more on the az104 cheatsheet.
 - Really great episode of Azure Podcast: 411 - Event Driven Architectures on Azure - https://azpodcast.azurewebsites.net/post/Episode-411-Event-Driven-Architectures-on-Azure
