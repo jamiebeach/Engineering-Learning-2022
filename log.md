@@ -1,3 +1,7 @@
+### 2022-02-14
+- While I'm working through Azure related things, I did come across a post about passing the CKA (Kubernetes) exam [on reddit, here](https://www.reddit.com/r/kubernetes/comments/ssk065/passed_my_cka_exam_first_time_here_are_my_tips/). Some neat links from within.
+
+
 ### 2022-02-13
 - Almost completed the video portion of the whizlabs az104 course. About 15 minutes to go, really.
 - Read through some of the things on the PowerApps roadmap here: https://docs.microsoft.com/en-us/power-platform-release-plan/2021wave2/power-apps/planned-features?ocid=AID3045259
