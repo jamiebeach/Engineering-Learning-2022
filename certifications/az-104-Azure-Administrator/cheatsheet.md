@@ -131,6 +131,23 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ## 🔖 Deploy and manage Azure compute resources (20–25%)
 
+### Azure VM's
+= SLA is combo of number of VM's and disk types used.
+- 2 VM's across 2 or more availability zones for 99.99
+- 2 VM's in availability set 99.95
+- single VM w premium disk is 99.9
+- **reserved instances** - paying up-front for specified period (1y or 3y)
+
+### App Service
+- For web sites and REST services
+- Multiple language\runtime support
+
+### Azure Container Registry
+
+### Azure Container Instance
+
+### Azure Kubernetes Service (AKS)
+
 ## 🔖 Configure and manage virtual networking (25–30%)
 
 ### Load Balancers
