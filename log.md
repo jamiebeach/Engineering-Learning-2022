@@ -1,3 +1,6 @@
+### 2022-02-15
+- Found this interesteing and reflecting on how Azure Well Architected framework and the Assessment can fit into an architecture practice : https://www.youtube.com/watch?v=xDhaHSK7mgM
+
 ### 2022-02-14
 - While I'm working through Azure related things, I did come across a post about passing the CKA (Kubernetes) exam [on reddit, here](https://www.reddit.com/r/kubernetes/comments/ssk065/passed_my_cka_exam_first_time_here_are_my_tips/). Some neat links from within.
 - Finished the whizlabs video course for az104
