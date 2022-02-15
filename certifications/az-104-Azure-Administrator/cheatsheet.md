@@ -142,11 +142,24 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - For web sites and REST services
 - Multiple language\runtime support
 
-### Azure Container Registry
+### [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
+- Azure Container Registry is a managed, private Docker registry service based on the open-source Docker Registry 2.0.
+- Basic, Standard and Premium tiers
+- "Content Trust" - option to enable signing images with certificate
 
 ### Azure Container Instance
+- Can run isolated containers, but not the more sophisticated features of AKS (orchestration, auto-scaling, etc)
+- Cannot expose both UDP and TCP on same port
+
 
 ### Azure Kubernetes Service (AKS)
+- Containerization: containers contain both application and OS, along with all dependencies, as a single file\asset
+- Orchestration: the system used to manage\deploy the containers
+- Cluster contains a **control plane** and the nodes used to run applications
+- A **persistent volume** is data storage from outside the AKS cluster
+- Pod replicas for scaling
+- **Ingress** - open comm channel into cluster\app
+
 
 ## 🔖 Configure and manage virtual networking (25–30%)
 
