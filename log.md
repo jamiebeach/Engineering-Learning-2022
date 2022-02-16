@@ -4,6 +4,7 @@
   - Video series, here: https://www.youtube.com/watch?v=UpQHmWxkVEU&list=PLLasX02E8BPCLAbeb31iT79Ml_a-LC7tZ
 - Another architecture podcast possibly worth listening to. Not specific to Azure : https://podcasts.apple.com/gb/podcast/the-architecture-advice-process-with-andrew-harmel-law/id1106971805?i=1000551090745
 - Created a basic load balancer and added some virtual machines behind. Only really tested with ssh, but get the idea. I struggled to figure out how to ensure that there was no public ip address enabled for the vm's. Just finally figured it out by re-watching a whizlab video. You can go into the network interface for the VM's and disable the public ip address. Easy peasy. I was trying to create a network rule such that only the load balancer could talk to the VM.
+- Read through "What is gitops": https://www.weave.works/technologies/gitops/
 
 ### 2022-02-14
 - While I'm working through Azure related things, I did come across a post about passing the CKA (Kubernetes) exam [on reddit, here](https://www.reddit.com/r/kubernetes/comments/ssk065/passed_my_cka_exam_first_time_here_are_my_tips/). Some neat links from within.
