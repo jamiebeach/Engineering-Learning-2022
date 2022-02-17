@@ -163,6 +163,17 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ## 🔖 Configure and manage virtual networking (25–30%)
 
+### [Virtual Network](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+- Azure Virtual Network (VNet) is the fundamental building block for your private network in Azure.
+- All resources in a VNet can communicate outbound to the internet, by default. 
+- Can assign a public ip address to communicate inbound from internet
+- Allow vnets to communicate to each other through vnet pairing
+- A **subnet** is a sub-component of a vnet and resources can be access restricted at a subnet level.
+- If VNet A is peered with VNet B and VNet B is peered with VNet C, it does _not_ mean that VNet A can talk to VNet C.
+
+### [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview#network-security-groups)
+- contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
+
 ### Load Balancers
 - Load balancer works at [Layer 4](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
 - Basic LB - underlying VM's need to be in an availability set, Standard LB - no availabilty set required
@@ -181,6 +192,14 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Network Watcher Next Hop: Checking if traffic is being directed to the intended destination.
 
 ### Point-to-Site VPN
+- Established between a virtual network and a single computer in your network. Each computer that wants to establish connectivity with a virtual network must configure its connection.
 
 ### Site-to-Site VPN
+- Established between your on-premises VPN device and an Azure VPN Gateway that is deployed in a virtual network. This connection type enables any on-premises resource that you authorize to access a virtual network. The communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over the internet
+
+### Express Route
+- Established between your network and Azure, through an ExpressRoute partner. This connection is private
+
+### Azure Firewall
+
 ## 🔖 Monitor and back up Azure resources (10–15%)
