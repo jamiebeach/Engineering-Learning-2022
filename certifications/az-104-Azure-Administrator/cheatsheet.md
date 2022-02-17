@@ -211,6 +211,10 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ## 🔖 Monitor and back up Azure resources (10–15%)
 
+### [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log)
+- [Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial) - edit and run log queries from Azure Monitor logs.
+- [Log alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log) can be created by creating a new Alert Rule and then setting alerting action.
+
 ### [Recovery Services Vault](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
 - A storage entity to house copies of data, config for VMs, workloads, servers or workstations.
 - Can be used to hold backup data for various Azure services such as IaaS VMs and Azure SQL databases.
