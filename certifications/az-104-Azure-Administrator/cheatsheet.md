@@ -210,3 +210,13 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ### Azure Firewall
 
 ## 🔖 Monitor and back up Azure resources (10–15%)
+
+### [Recovery Services Vault](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
+- A storage entity to house copies of data, config for VMs, workloads, servers or workstations.
+- Can be used to hold backup data for various Azure services such as IaaS VMs and Azure SQL databases.
+- Support System Center DPM, Windows Server, Azure Backup Server and more.
+- Soft delete - backups retained for additional 14 days allowing for recovery.
+- Default backup policy is once per day. Backups retained for 30 days. Instant recovery snapshots retained for two days.
+- Can backup only VMs in same region and subscription as that of the vault.
+- If you create a custom VM or migrate from on-prem (ie. not from marketplace) you may need to install the VM agent manually.
+
