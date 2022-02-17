@@ -1,3 +1,7 @@
+### 2022-02-16
+- Added more to az104 cheatsheet and finished another practice test, scoring about 70%. Getting closer. After the practice test, I'm going through the incorrect answers and adding more to the cheatsheet.
+- Obviously the cheatsheet is for studying and not actually cheating.
+
 ### 2022-02-15
 - Found this interesteing and reflecting on how Azure Well Architected framework and the Assessment can fit into an architecture practice : https://www.youtube.com/watch?v=xDhaHSK7mgM
 - Azure Well Architected Framework: https://docs.microsoft.com/en-us/azure/architecture/framework/?WT.mc_id=azureenablement-ch9-cxa
