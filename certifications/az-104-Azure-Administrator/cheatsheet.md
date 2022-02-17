@@ -106,6 +106,8 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 #### Azure File Storage
 - File share accessible over [SMB](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)) or [NFS](https://docs.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview)
   - UNC path mounted with File Explorer : \\host-name\share-name\file-name
+- [Azure File Sync](https://docs.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal) : sync Azure file share with a local computer.
+  - Deploy Sync service to Azure sub, install Azure File Sync Agent on local computer, Register Windows Server with Storage Sync Service, Create a Sync Group and Cloud Endpoint, Create a Server Endpoint.
 
 #### Azure Disk Storage
 - .vhd virtual VM disks (and images) are stored in Page BLOB's.
