@@ -108,6 +108,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
   - UNC path mounted with File Explorer : \\host-name\share-name\file-name
 - [Azure File Sync](https://docs.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal) : sync Azure file share with a local computer.
   - Deploy Sync service to Azure sub, install Azure File Sync Agent on local computer, Register Windows Server with Storage Sync Service, Create a Sync Group and Cloud Endpoint, Create a Server Endpoint.
+  - Has simple conflict-resolution strategy for duplicate filenames : most recent change keeps filename. Older file has endpoint name and conflict number appended to filename. ex.. FilenameWithoutExtension-endpointName-#.ext (number only for when more than one conflict.)
 
 #### Azure Disk Storage
 - .vhd virtual VM disks (and images) are stored in Page BLOB's.
