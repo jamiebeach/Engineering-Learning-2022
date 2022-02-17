@@ -214,6 +214,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ### [Recovery Services Vault](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
 - A storage entity to house copies of data, config for VMs, workloads, servers or workstations.
 - Can be used to hold backup data for various Azure services such as IaaS VMs and Azure SQL databases.
+- Not for BLOB data (BLOB requires backup vault)
 - Support System Center DPM, Windows Server, Azure Backup Server and more.
 - Soft delete - backups retained for additional 14 days allowing for recovery.
 - Default backup policy is once per day. Backups retained for 30 days. Instant recovery snapshots retained for two days.
