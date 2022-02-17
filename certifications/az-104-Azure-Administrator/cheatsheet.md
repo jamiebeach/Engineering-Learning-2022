@@ -173,6 +173,9 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Allow vnets to communicate to each other through vnet pairing
 - A **subnet** is a sub-component of a vnet and resources can be access restricted at a subnet level.
 - If VNet A is peered with VNet B and VNet B is peered with VNet C, it does _not_ mean that VNet A can talk to VNet C.
+- A Virtual Network service endpoint provides secure connectivity to Azure services over an optimized route over backbone network. Allows private IP addresses in VNet to reach endpoint of an Azure service without needing a public IP address in VNet.
+- [Private Link](https://docs.microsoft.com/en-us/azure/private-link/private-link-overview) : enables access to Azure PaaS services (ex. storage, SQL) and Azure hosted customer-owned/partner services over a [private endpoint](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview) in Vnet.
+- Private Endpoint allows private connectivity (no public ip address) for Azure services like Azure Storage, Cosmos DB, SQL, etc...
 
 ### [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview#network-security-groups)
 - contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
