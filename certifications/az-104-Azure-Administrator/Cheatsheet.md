@@ -225,3 +225,18 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Can backup only VMs in same region and subscription as that of the vault.
 - If you create a custom VM or migrate from on-prem (ie. not from marketplace) you may need to install the VM agent manually.
 
+### [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+- Feature of Azure Monitor that provides extensible application performance management (APM) and monitoring of live web apps.
+  - Request rates, response times, failure rates
+  - User journey things - popular pages, where users are, page performance, struggles
+  - Aggreagted statistics or specific instances\stack trace
+  - Page views and performance
+  - VM performance counters
+  - Host diagnostics  or docker\Azure
+  - Trace logs, etc
+- Sort of like a combination of New Relic and Google Analytics
+- Maps and telemetry data
+- [Application Insights Funnels](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-funnels) - user progress through series of steps in web application
+- [Impact Analysis](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-impact) analyzes load times and other properties influencing conversion rates.
+- [Retention Analysis](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-retention) helps to analyze how many users return to the app.
+- [User Flows](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-flows) tool visualizes how users navigate between pages and features of site.
