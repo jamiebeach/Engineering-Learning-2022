@@ -176,6 +176,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - A [Virtual Network service endpoint](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview) provides secure connectivity to Azure services over an optimized route over backbone network. Allows private IP addresses in VNet to reach endpoint of an Azure service without needing a public IP address in VNet.
 - [Private Link](https://docs.microsoft.com/en-us/azure/private-link/private-link-overview) : enables access to Azure PaaS services (ex. storage, SQL) and Azure hosted customer-owned/partner services over a [private endpoint](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview) in Vnet.
 - Private Endpoint allows private connectivity (no public ip address) for Azure services like Azure Storage, Cosmos DB, SQL, etc...
+- Video: [Service endpoints vs Private endpoints](https://www.youtube.com/watch?v=4v-9zGHxVeI)
 
 ### [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview#network-security-groups)
 - contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
