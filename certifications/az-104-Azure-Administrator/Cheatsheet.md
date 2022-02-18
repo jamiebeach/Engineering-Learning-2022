@@ -91,7 +91,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
   - Append: keep updating to files (ex logging)
   - [Page](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview?tabs=dotnet): collection of 512-byte pages for read/write arbitrary byte ranges. Optimal for data structures like OS and data disk images. ex Azure SQL DB. Up to 8 TiB
 - Access levels: Private, Blob (anon read), Container (anon read for container and blob)
-- Access tiers: Hot/Cool and Archive (Cool - between 30 and 180 days storage)
+- [Access tiers](https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview): Hot/Cool and Archive (Cool - between 30 and 180 days storage)
 - Zone replication: 
 
 | . | **LRS** | **ZRS** | **GRS/RA-GRS** | **GZRS/RA-GZRS** |
