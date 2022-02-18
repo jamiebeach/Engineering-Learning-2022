@@ -102,6 +102,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 - **For RA- variants read access for secondary region is available if primary region goes down*
 - Lifecycle management: moving between hot\cool\archive
+- [Storage accounts overview](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
 #### Azure File Storage
 - File share accessible over [SMB](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)) or [NFS](https://docs.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview)
