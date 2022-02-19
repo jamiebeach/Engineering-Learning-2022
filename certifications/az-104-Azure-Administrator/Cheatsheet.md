@@ -106,10 +106,11 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 #### Azure File Storage
 - File share accessible over [SMB](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831795(v=ws.11)) or [NFS](https://docs.microsoft.com/en-us/windows-server/storage/nfs/nfs-overview)
-  - UNC path mounted with File Explorer : \\host-name\share-name\file-name
+  - UNC path mounted with File Explorer : \\host-name.file.core.windows.net\share-name\file-name
 - [Azure File Sync](https://docs.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal) : sync Azure file share with a local computer.
   - Deploy Sync service to Azure sub, install Azure File Sync Agent on local computer, Register Windows Server with Storage Sync Service, Create a Sync Group and Cloud Endpoint, Create a Server Endpoint.
   - Has simple conflict-resolution strategy for duplicate filenames : most recent change keeps filename. Older file has endpoint name and conflict number appended to filename. ex.. FilenameWithoutExtension-endpointName-#.ext (number only for when more than one conflict.)
+- SAS (Shared Access Token) : available on container - a URI that grants restricted access to an Azure Storage container. Can specify time period for access as well as allowed ip address ranges.
 
 #### Azure Disk Storage
 - .vhd virtual VM disks (and images) are stored in Page BLOB's.
@@ -195,7 +196,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### Network Verification
 - [IP Flow Verify](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview#:~:text=IP%20flow%20verify%20checks%20if,denied%20the%20packet%20is%20returned.): checks if a packet is allowed or denied to or from a virtual machine
-- Network Watcher Connection Monitor:  provides unified end-to-end connection monitoring in Azure Network Watcher
+- Network Watcher Connection Monitor:  provides unified end-to-end connection monitoring in Azure Network Watcher. Notifies changes in "reachability" and latency.
 - Network Configuration Diagnostic Tool: understand which traffic flows will be allowed or denied in your Azure Virtual Network
 - Network Watcher Next Hop: Checking if traffic is being directed to the intended destination.
 
@@ -221,11 +222,13 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Can be used to hold backup data for various Azure services such as IaaS VMs and Azure SQL databases.
 - Not for BLOB data (BLOB requires backup vault)
 - Support System Center DPM, Windows Server, Azure Backup Server and more.
-- Soft delete - backups retained for additional 14 days allowing for recovery.
+- Soft delete - (available on data protection tab of storage account resource) backups retained for additional 14 days allowing for recovery.
 - Default backup policy is once per day. Backups retained for 30 days. Instant recovery snapshots retained for two days.
 - Can backup only VMs in same region and subscription as that of the vault.
 - If you create a custom VM or migrate from on-prem (ie. not from marketplace) you may need to install the VM agent manually.
 
+### [Backup Vault](https://docs.microsoft.com/en-us/azure/backup/backup-vault-overview)
+- 
 ### [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 - Feature of Azure Monitor that provides extensible application performance management (APM) and monitoring of live web apps.
   - Request rates, response times, failure rates
