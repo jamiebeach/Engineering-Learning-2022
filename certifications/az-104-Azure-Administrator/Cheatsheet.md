@@ -174,7 +174,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Can assign a public ip address to communicate inbound from internet
 - Allow vnets to communicate to each other through vnet pairing
   - vnet pairing can be local, between vnets in same region, or global across regions.
-  - The only real constraint for vnet peering is address space.
+  - The only real constraint for vnet peering is address space, in vnet address space cannot overlap.
   - Peering using a vnet-to-vnet VPN Gateway also requires a dedicated subnet with address space /27 or /28. If a subnet existing in vnet already occupies address space then vnet-to-vnet VPN gateway can't be created. Requires resizing subnet address space.
 - A **subnet** is a sub-component of a vnet and resources can be access restricted at a subnet level.
 - If VNet A is peered with VNet B and VNet B is peered with VNet C, it does _not_ mean that VNet A can talk to VNet C.
