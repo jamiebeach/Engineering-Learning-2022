@@ -73,7 +73,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### Locks
 - Locks can be put on resources. 
-- Delete lock on a resource still allows it be moved.
+- Delete and read-only locks on a resource do not prevent it from being moved.
 
 ## 🔖 Implement and manage storage (15–20%)
 
