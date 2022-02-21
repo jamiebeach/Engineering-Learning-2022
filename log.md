@@ -1,3 +1,17 @@
+### 2022-02-20
+- Did another wizlabs practice test, but did _not_ score well. Will see how I'm doing closer to mid-week, but not looking good for a Feb 25 exam.
+
+### 2022-02-19
+- Spent some time on Azure Portal setting up a file share. Azure Portal was causing me some issues, but was able to setup with CLI.
+- Also had trouble mounting the Azure fileshare on my desktop. Either on Windows or Linux. Kept getting timeouts which indicated to me that there was a local network issue - Windows firewall was not blocking outbount 445 port. Maybe my router or ISP was? I don't know.
+- So I setup a VM on Azure and opened port 22. Created a local SSL tunnel through the VM and forwarded port 445 on localhost to the fileshare endpoint. That worked. A Point-to-Site VPN would probably have worked as well, but I didn't want to set that up.
+
+### 2022-02-17 through 2022-02-18
+- Worked more on the az104 cheatsheet
+- Listened to latest Azure podcast
+- Worked through more practice tests.
+- At this point, still unsure if I will be ready to take the az104 exam on the 25th.
+
 ### 2022-02-16
 - Added more to az104 cheatsheet and finished another practice test, scoring about 70%. Getting closer. After the practice test, I'm going through the incorrect answers and adding more to the cheatsheet.
 - Obviously the cheatsheet is for studying and not actually cheating.
