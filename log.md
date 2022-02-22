@@ -1,3 +1,8 @@
+### 2022-02-21
+- Amazing study cram video from Youtube by John Savill: https://www.youtube.com/watch?v=VOod_VNgdJk&t=2775s
+- Got through an hour of this video.
+- Also went through some of the areas of the last practice exam that I took and re-learned some of the specifics -moving resources, vnet pairing, specifically.
+
 ### 2022-02-20
 - Did another wizlabs practice test, but did _not_ score well. Will see how I'm doing closer to mid-week, but not looking good for a Feb 25 exam.
 
