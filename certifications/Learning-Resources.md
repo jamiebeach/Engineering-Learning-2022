@@ -9,6 +9,9 @@
 - [LearnAzure Mobile App](https://learnazure.app/)
 - [Scott Duffy videos on Udemy](https://www.udemy.com/course/70533-azure)
 
+## Youtube
+- [AZ-104 Study Cram (John Savill)](https://youtu.be/VOod_VNgdJk)
+
 ## CKS CKA CKAD
 - [KLLR SHLL - CKS Exam Simulator](https://killer.sh/)
 
