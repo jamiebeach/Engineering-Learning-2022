@@ -177,6 +177,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
   - The only real constraint for vnet peering is address space, in vnet address space cannot overlap.
   - Peering using a vnet-to-vnet VPN Gateway also requires a dedicated subnet with address space /27 or /28. If a subnet existing in vnet already occupies address space then vnet-to-vnet VPN gateway can't be created. Requires resizing subnet address space.
 - A **subnet** is a sub-component of a vnet and resources can be access restricted at a subnet level.
+  - A subnet will lose 5 ip addresses of the selected ip range for default required addresses - (0, 1,2,3,255)
 - If VNet A is peered with VNet B and VNet B is peered with VNet C, it does _not_ mean that VNet A can talk to VNet C.
 - A [Virtual Network service endpoint](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview) provides secure connectivity to Azure services over an optimized route over backbone network. Allows private IP addresses in VNet to reach endpoint of an Azure service without needing a public IP address in VNet.
 - [Private Link](https://docs.microsoft.com/en-us/azure/private-link/private-link-overview) : enables access to Azure PaaS services (ex. storage, SQL) and Azure hosted customer-owned/partner services over a [private endpoint](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-overview) in Vnet.
