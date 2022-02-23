@@ -20,6 +20,7 @@
 - SSPR (Self-serve password reset). Administrators have strong 2-gate password reset always, which may differ from configured SSPR policies.
 - [Conditional Access Policy](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) : Conditional Access policies at their simplest are if-then statements, if a user wants to access a resource, then they must complete an action. Uses "signals" to make decisions. ex. members of the group need to use MFA and an Azure AD-joined device when they connect to Azure AD from untrusted locations.
 - [MFA Auth Provider](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-authprovider): MFA usage model. 2 Types - per-authentication and per-user. Usage model can't be changed after created.
+- [Azure AD Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-scheduler): synchronize changes occurring in your on-premises directory using a scheduler
 
 
 ### Azure RBAC (Role-Based Access Control)
