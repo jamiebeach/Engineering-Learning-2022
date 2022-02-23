@@ -145,6 +145,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - 2 VM's in availability set 99.95
 - single VM w premium disk is 99.9
 - **reserved instances** - paying up-front for specified period (1y or 3y)
+- Can upload custom images (.vhd file) with powershell command Add-AzVhd
 
 ### App Service
 - For web sites and REST services
