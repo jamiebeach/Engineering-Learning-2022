@@ -210,6 +210,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### Point-to-Site VPN
 - Established between a virtual network and a single computer in your network. Each computer that wants to establish connectivity with a virtual network must configure its connection.
+- Note that after changing topology of network (ex. add vnet peering to another vnet) the VPN client configuration software must be re-downloaded and re-installed. [See here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-point-to-site-routing)
 
 ### Site-to-Site VPN
 - Established between your on-premises VPN device and an Azure VPN Gateway that is deployed in a virtual network. This connection type enables any on-premises resource that you authorize to access a virtual network. The communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over the internet
