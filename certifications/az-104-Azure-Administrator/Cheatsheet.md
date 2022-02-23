@@ -18,6 +18,7 @@
 - [Administrative Units](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units) - AD resource that contains other AD resources (users/groups)
 - [Identity Governance](https://docs.microsoft.com/en-us/azure/active-directory/governance/identity-governance-overview)
 - SSPR (Self-serve password reset). Administrators have strong 2-gate password reset always, which may differ from configured SSPR policies.
+- [Conditional Access Policy](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) : Conditional Access policies at their simplest are if-then statements, if a user wants to access a resource, then they must complete an action. Uses "signals" to make decisions. ex. members of the group need to use MFA and an Azure AD-joined device when they connect to Azure AD from untrusted locations.
 
 
 ### Azure RBAC (Role-Based Access Control)
