@@ -1,5 +1,5 @@
 ### 2022-02-22
-- Spent a couple hours going through az104 questions on one of the question sites.
+- Spent a couple hours going through az104 questions on one of the question sites ([Exam Topics](https://www.examtopics.com/exams/)).
 - At work helped solve an issue in Azure related to security roles for Databricks that the team had been dealing with for a number of months.
 - Watched more of the Savill cram video
 - Pushed out the exam another week.
