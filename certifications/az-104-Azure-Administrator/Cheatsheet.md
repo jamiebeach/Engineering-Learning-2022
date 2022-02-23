@@ -103,7 +103,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 | Data center outage |   | ✅ | ✅ | ✅ |
 | Region-wide outage |   |    | ✅ | ✅ |
 
-- **For RA- variants read access for secondary region is available if primary region goes down*
+- **For RA- variants read access for secondary region is available regardless if primary region goes down*
 - Lifecycle management: moving between hot\cool\archive
 - [Storage accounts overview](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
