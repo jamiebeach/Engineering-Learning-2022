@@ -149,6 +149,8 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Configure static VM ip addresses with [Set-AzNetworkInterface powershell commandlet](https://docs.microsoft.com/en-us/powershell/module/az.network/set-aznetworkinterface?view=azps-7.2.0&viewFallbackFrom=azps-6.5.0) (or Set-AzureStaticVNetIP for classic resources).
 - Creating ip addresses: each VM requires a NIC. Each NIC can provide a private ip address. Public ip addresses are separate to the NIC iteself (the VM is not really aware of the public IP address).
 
+  [ ![nic ip address configuration](./images/nic-ip-addresses.jpg)](./images/nic-ip-addresses.jpg)
+
 ### App Service
 - For web sites and REST services
 - Multiple language\runtime support
@@ -192,6 +194,9 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview#network-security-groups)
 - contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.
+- Each network interface or subnet can have an NSG. But only one NSG is needed across multiple resources in a vnet.
+
+  [ ![NSG](./images/nsg.jpg) ](./images/nsg.jpg)
 
 ### Load Balancers
 - Load balancer works at [Layer 4](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
@@ -238,6 +243,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Default backup policy is once per day. Backups retained for 30 days. Instant recovery snapshots retained for two days.
 - Can backup only VMs in same region and subscription as that of the vault.
 - If you create a custom VM or migrate from on-prem (ie. not from marketplace) you may need to install the VM agent manually.
+- [Azure backup support matrix](https://docs.microsoft.com/en-us/azure/backup/backup-support-matrix-iaas)
 
 ### [Backup Vault](https://docs.microsoft.com/en-us/azure/backup/backup-vault-overview)
 - 
