@@ -140,12 +140,14 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ## 🔖 Deploy and manage Azure compute resources (20–25%)
 
 ### Azure VM's
-= SLA is combo of number of VM's and disk types used.
+- SLA is combo of number of VM's and disk types used.
 - 2 VM's across 2 or more availability zones for 99.99
 - 2 VM's in availability set 99.95
 - single VM w premium disk is 99.9
 - **reserved instances** - paying up-front for specified period (1y or 3y)
 - Can upload custom images (.vhd file) with powershell command Add-AzVhd
+- Configure static VM ip addresses with [Set-AzNetworkInterface powershell commandlet](https://docs.microsoft.com/en-us/powershell/module/az.network/set-aznetworkinterface?view=azps-7.2.0&viewFallbackFrom=azps-6.5.0) (or Set-AzureStaticVNetIP for classic resources).
+- Creating ip addresses: each VM requires a NIC. Each NIC can provide a private ip address. Public ip addresses are separate to the NIC iteself (the VM is not really aware of the public IP address).
 
 ### App Service
 - For web sites and REST services
