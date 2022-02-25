@@ -1,3 +1,6 @@
+### 2022-02-24
+- Found this https://pulse.microsoft.com/en/skill-forward-en/na/fa1-get-rewarded-for-gaining-tech-skills-and-free-certifications-at-the-microsoft-spring-skills-challenge/
+
 ### 2022-02-23
 - Did a few more questions today from Exam Topics. Not many though - distracted.
 
