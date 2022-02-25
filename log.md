@@ -1,3 +1,6 @@
+### 2022-02-23
+- Did a few more questions today from Exam Topics. Not many though - distracted.
+
 ### 2022-02-22
 - Spent a couple hours going through az104 questions on one of the question sites ([Exam Topics](https://www.examtopics.com/exams/)).
 - At work helped solve an issue in Azure related to security roles for Databricks that the team had been dealing with for a number of months.
