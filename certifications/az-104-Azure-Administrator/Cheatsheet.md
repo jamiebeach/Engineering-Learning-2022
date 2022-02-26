@@ -172,6 +172,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - A **persistent volume** is data storage from outside the AKS cluster
 - Pod replicas for scaling
 - **Ingress** - open comm channel into cluster\app
+- Numerous ways to provide users access to k8s cluster in AKS: https://docs.microsoft.com/en-us/azure/aks/concepts-identity (including AD client application with oauth 2)
 
 
 ## 🔖 Configure and manage virtual networking (25–30%)
