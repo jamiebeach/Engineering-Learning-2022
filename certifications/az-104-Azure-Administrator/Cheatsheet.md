@@ -239,6 +239,8 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log)
 - [Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial) - edit and run log queries from Azure Monitor logs.
+  - Can search using [Log Analytics Query Language](https://docs.microsoft.com/en-us/services-hub/health/log_analytics_query_language)
+  - ex. **search in (Event) "error"**
 - [Log alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log) can be created by creating a new Alert Rule and then setting alerting action.
 
 ### [Recovery Services Vault](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
