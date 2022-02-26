@@ -1,5 +1,6 @@
 ### 2022-02-24
 - Found this https://pulse.microsoft.com/en/skill-forward-en/na/fa1-get-rewarded-for-gaining-tech-skills-and-free-certifications-at-the-microsoft-spring-skills-challenge/
+- Continued Exam Topics practice test. Each question takes a very long time as I'm also trying to make sure I fully understand the answer. Only about 10% through all 300+ questions there.
 
 ### 2022-02-23
 - Did a few more questions today from Exam Topics. Not many though - distracted.
