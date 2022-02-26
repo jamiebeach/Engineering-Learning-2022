@@ -80,7 +80,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### [ITSM](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview)
 - IT Service Management Connector (ITSMC) allows you to connect Azure to a supported IT Service Management (ITSM) product or service.
-- ex. ServiceNow
+- ex. MS System Center Service Manager or IBM ServiceNow
 
 ## 🔖 Implement and manage storage (15–20%)
 
