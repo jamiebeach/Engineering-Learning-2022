@@ -78,6 +78,10 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Locks can be put on resources. 
 - Delete and read-only locks on a resource do not prevent it from being moved.
 
+### [ITSM](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview)
+- IT Service Management Connector (ITSMC) allows you to connect Azure to a supported IT Service Management (ITSM) product or service.
+- ex. ServiceNow
+
 ## 🔖 Implement and manage storage (15–20%)
 
 ### Azure Storage
