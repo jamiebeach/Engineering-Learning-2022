@@ -48,6 +48,7 @@
 ### Azure Advisor
 - 5 pilars : "Azure well-architected framework"
   - Cost optimization, Operational excellence, Performance efficiency, Security, Reliability
+- Advisor helps you optimize and reduce your overall Azure spend by identifying idle and underutilized resources. You can get cost recommendations from the Cost tab on the Advisor dashboard.
 
 ### Azure Service Health
 - Personalized dashboard for ssubscription - all resources across all subscriptions and regions
