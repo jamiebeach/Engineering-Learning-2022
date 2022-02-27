@@ -147,6 +147,9 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ## 🔖 Deploy and manage Azure compute resources (20–25%)
 
+### General
+- Pretty much all reasources can be moved between RG's and Subs: [see here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-resource-group-and-subscription)
+
 ### Azure VM's
 - SLA is combo of number of VM's and disk types used.
 - 2 VM's across 2 or more availability zones for 99.99
