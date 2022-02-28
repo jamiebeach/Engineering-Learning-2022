@@ -90,7 +90,9 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### Azure Storage
 
+#### Import/Export Service
 - Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter.
+- Can only export blob - https://docs.microsoft.com/en-us/azure/import-export/storage-import-export-service
 
 #### Azure BLOB Storage
 - binary/text data
