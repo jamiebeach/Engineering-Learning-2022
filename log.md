@@ -1,6 +1,7 @@
 ### 2022-03-03
 - Haven't updated this log because I've been pretty distracted over the last week, but I've been continuing to work through the quetions in the exam prep from examtopics. Have also been continuing through the John Savill study cram.
 - Originally was supposed to have az104 exam today, but pushed it out to next week due to still not feeling fully comfortable with all the content.
+- [Simon Brown](https://twitter.com/simonbrown) has a bunch of great videos here : https://simonbrown.je/
 
 ### 2022-02-24
 - Found this https://pulse.microsoft.com/en/skill-forward-en/na/fa1-get-rewarded-for-gaining-tech-skills-and-free-certifications-at-the-microsoft-spring-skills-challenge/
