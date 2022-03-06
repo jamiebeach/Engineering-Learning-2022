@@ -176,7 +176,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ### App Service
 - For web sites and REST services
 - Multiple language\runtime support
-- Many web apps can live in a single app service plan.
+- Many web apps can live in a single app service plan. *But note that some language runtimes are exclusive to an OS. So can't run Ruby (exclusive to Linux) on a Windows app service plan. And vice versa with .Net 4.x, for example*
   ![app service plan](./images/appserviceplan.jpg)
 
 ### [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
