@@ -164,6 +164,15 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
   [ ![nic ip address configuration](./images/nic-ip-addresses.jpg)](./images/nic-ip-addresses.jpg)
 
+### Azure VM Scale Set
+- A set of VM's that automatically increase in instances (horizontally) according to load. Load balanced across identical images.
+- Implicitly would want to also have availability set so that VM's are distributed across fault zones.
+- Different from an Availability Set in that Availability Sets do not auto scale horizontally and only address uptime when fault zone goes out. Or maintenance.
+- Add VM's **to** an Availability Set whereas Scale Sets control instances of identical VM's within.
+- Setup as a Scal Set instead of individual VM's.
+- Instance count sets max number of VM's available.
+- Can set scaling policy to either manual or custom (based on CPU or other)
+
 ### App Service
 - For web sites and REST services
 - Multiple language\runtime support
@@ -229,12 +238,6 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - [Layer 7](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
 - Route based on URL and other attributes.
 
-### Network Verification
-- [IP Flow Verify](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview#:~:text=IP%20flow%20verify%20checks%20if,denied%20the%20packet%20is%20returned.): checks if a packet is allowed or denied to or from a virtual machine
-- Network Watcher Connection Monitor:  provides unified end-to-end connection monitoring in Azure Network Watcher. Notifies changes in "reachability" and latency.
-- Network Configuration Diagnostic Tool: understand which traffic flows will be allowed or denied in your Azure Virtual Network
-- Network Watcher Next Hop: Checking if traffic is being directed to the intended destination.
-
 ### Point-to-Site VPN
 - Established between a virtual network and a single computer in your network. Each computer that wants to establish connectivity with a virtual network must configure its connection.
 - Note that after changing topology of network (ex. add vnet peering to another vnet) the VPN client configuration software must be re-downloaded and re-installed. [See here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-point-to-site-routing)
@@ -248,6 +251,14 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 ### Azure Firewall
 
 ## 🔖 Monitor and back up Azure resources (10–15%)
+
+### Network Verification and Network Watcher
+- [IP Flow Verify](https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview#:~:text=IP%20flow%20verify%20checks%20if,denied%20the%20packet%20is%20returned.): checks if a packet is allowed or denied to or from a virtual machine
+- Network Watcher Connection Monitor:  provides unified end-to-end connection monitoring in Azure Network Watcher. Notifies changes in "reachability" and latency.
+- Network Configuration Diagnostic Tool: understand which traffic flows will be allowed or denied in your Azure Virtual Network
+- Network Watcher Next Hop: Checking if traffic is being directed to the intended destination.
+- Can log all inbound+outbound access attempts on NSG through network watcher + NSG Log flows. Requires Microsoft.Insights resource provider enabled on subscription.
+  ![NSG Log Flows insights with Network Watcher](./images/networkwatcher-nsg-logflows.jpg)
 
 ### [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log)
 - [Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial) - edit and run log queries from Azure Monitor logs.
