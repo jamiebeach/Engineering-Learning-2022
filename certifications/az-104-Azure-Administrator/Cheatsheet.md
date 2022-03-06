@@ -221,6 +221,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - LB's require VM's in same virtual network
 - [Floating IP](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-floating-ip)
 - [Availability Sets](https://docs.microsoft.com/en-us/azure/load-balancer/tutorial-multi-availability-sets-portal): only apply to VM's. Takes the virtual machine and configures multiple copies of it. Each copy is isolated within a separate physical server, compute rack, storage units and network switches within a single datacentre within an Azure Region. ([tutorial](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets))
+  - Availability sets have fault and update domains. Fault domain number indicates the divisor of VM's to be up should there be a fault (on a rack, presunably). Update domains indicates the sets of VM's that can be restarted together. Setting to 5 means 5 groups of VM's that can each group be restarted. More VM's than groups and those VM's fill up existing groups. Example: 7 VM's with 4 Update Domains = 3 groups of 2 and a single VM. Therefore max of 2 servers could be being updated at one time.
 
 ### Application Gateway
 - [Layer 7](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
