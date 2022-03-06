@@ -168,6 +168,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - For web sites and REST services
 - Multiple language\runtime support
 - Many web apps can live in a single app service plan.
+  ![app service plan](./images/appserviceplan.jpg)
 
 ### [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
 - Azure Container Registry is a managed, private Docker registry service based on the open-source Docker Registry 2.0.
