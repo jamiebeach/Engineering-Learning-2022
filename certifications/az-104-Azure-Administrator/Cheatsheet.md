@@ -45,6 +45,10 @@
 - Used by admins and architects to design solutions
 - Similar to ARM templates, but exist natively on Azure
 
+### ARM Templates
+- Templates for deploying resources with Azur Resource Manager
+- Can configure resource group upon deploying VM ARM template
+
 ### Azure Advisor
 - 5 pilars : "Azure well-architected framework"
   - Cost optimization, Operational excellence, Performance efficiency, Security, Reliability
