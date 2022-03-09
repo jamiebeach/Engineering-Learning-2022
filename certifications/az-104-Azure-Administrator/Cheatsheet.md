@@ -82,7 +82,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 
 ### Locks
 - Locks can be put on resources. 
-- Delete and read-only locks on a resource do not prevent it from being moved.
+- Delete and read-only locks on a resource do not prevent it from being moved. However, if a source or destination Resource Group has a read-only lock on it, nothing can be moved to or from it.
 
 ### [System Center Service Manager](https://docs.microsoft.com/en-us/system-center/scsm/?view=sc-sm-2019)
 - Service Manager provides an integrated platform for automating and adapting your organization's IT service management best practices.
