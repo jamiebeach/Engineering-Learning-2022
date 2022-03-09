@@ -247,7 +247,8 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Note that after changing topology of network (ex. add vnet peering to another vnet) the VPN client configuration software must be re-downloaded and re-installed. [See here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-point-to-site-routing)
 
 ### Site-to-Site VPN
-- Established between your on-premises VPN device and an Azure VPN Gateway that is deployed in a virtual network. This connection type enables any on-premises resource that you authorize to access a virtual network. The communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over the internet
+- Established between your on-premises VPN device and an Azure VPN Gateway that is deployed in a virtual network. This connection type enables any on-premises resource that you authorize to access a virtual network. The communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over the internet.
+- VNet must have a vpn gateway subnet with address range to allow Azure to deploy required VM's and services to. Perhaps a /26 CIDR range. The gateway subnet must be named 'GatewaySubnet' to work properly.
 
 ### Express Route
 - Established between your network and Azure, through an ExpressRoute partner. This connection is private
