@@ -1,3 +1,7 @@
+### 2022-03-04 to 2022-03-08
+- Still studying for the 104 exam, but had to push out the date another week because I'm still not quite ready. Last time pushing out.
+- Continuing to go through the examtopics questions. Also nearly done the John Saville exam cram.
+
 ### 2022-03-03
 - Haven't updated this log because I've been pretty distracted over the last week, but I've been continuing to work through the quetions in the exam prep from examtopics. Have also been continuing through the John Savill study cram.
 - Originally was supposed to have az104 exam today, but pushed it out to next week due to still not feeling fully comfortable with all the content.
@@ -14,7 +18,7 @@
 - Spent a couple hours going through az104 questions on one of the question sites ([Exam Topics](https://www.examtopics.com/exams/)).
 - At work helped solve an issue in Azure related to security roles for Databricks that the team had been dealing with for a number of months.
 - Watched more of the Savill cram video
-- Pushed out the exam another week.
+- Pushed out the exam a week.
 
 ### 2022-02-21
 - Amazing study cram video from Youtube by John Savill: https://www.youtube.com/watch?v=VOod_VNgdJk&t=2775s
