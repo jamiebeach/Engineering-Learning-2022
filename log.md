@@ -1,6 +1,10 @@
 ### 2022-03-04 to 2022-03-08
 - Still studying for the 104 exam, but had to push out the date another week because I'm still not quite ready. Last time pushing out.
 - Continuing to go through the examtopics questions. Also nearly done the John Saville exam cram.
+- Things that I need to doule down on :
+  - the Network Watcher things (IP Flow, Next Hop, Packet Capture, etc)
+  - Backup
+- Feeling pretty comfortable with VNets and NSGs.
 
 ### 2022-03-03
 - Haven't updated this log because I've been pretty distracted over the last week, but I've been continuing to work through the quetions in the exam prep from examtopics. Have also been continuing through the John Savill study cram.
