@@ -1,3 +1,8 @@
+### 2022-03-09
+- Almost through all the 341 questions on examtopics. Taking forever because whenever I don't get the correct answer, I find myself going through all the comments and essentially trying to understand where I went wrong. And that happens frequently enough.
+- Listended to the latest Azure Fridays podcast today. Talked about some recent changes to DNS availability\resiliency.
+- Also read up on Azure HSM, including the dedicated payment HSM currently in preview.
+
 ### 2022-03-04 to 2022-03-08
 - Still studying for the 104 exam, but had to push out the date another week because I'm still not quite ready. Last time pushing out.
 - Continuing to go through the examtopics questions. Also nearly done the John Saville exam cram.
