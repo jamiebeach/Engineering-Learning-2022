@@ -201,7 +201,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Pod replicas for scaling
 - **Ingress** - open comm channel into cluster\app
 - Numerous ways to provide users access to k8s cluster in AKS: https://docs.microsoft.com/en-us/azure/aks/concepts-identity (including AD client application with oauth 2)
-
+- Azure Container Network Interface plug-in assigns IP addresses from a virtual network to containers brought up in the virtual machine, attaching them to the virtual network, and connecting them directly to other containers and virtual network resources.
 
 ## 🔖 Configure and manage virtual networking (25–30%)
 
