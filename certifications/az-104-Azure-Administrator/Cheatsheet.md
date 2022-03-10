@@ -165,6 +165,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Can upload custom images (.vhd file) with powershell command Add-AzVhd
 - Configure static VM ip addresses with [Set-AzNetworkInterface powershell commandlet](https://docs.microsoft.com/en-us/powershell/module/az.network/set-aznetworkinterface?view=azps-7.2.0&viewFallbackFrom=azps-6.5.0) (or Set-AzureStaticVNetIP for classic resources).
 - Creating ip addresses: each VM requires a NIC. Each NIC can provide a private ip address. Public ip addresses are separate to the NIC iteself (the VM is not really aware of the public IP address).
+- A reverse lookup to the private ip address of a VM would return something like vm1.internal.cloudapp.net
 
   [ ![nic ip address configuration](./images/nic-ip-addresses.jpg)](./images/nic-ip-addresses.jpg)
 
