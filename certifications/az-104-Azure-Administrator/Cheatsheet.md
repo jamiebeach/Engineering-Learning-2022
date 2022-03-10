@@ -264,6 +264,10 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 - Network Watcher Next Hop: Checking if traffic is being directed to the intended destination.
 - Can log all inbound+outbound access attempts on NSG through network watcher + NSG Log flows. Requires Microsoft.Insights resource provider enabled on subscription.
   ![NSG Log Flows insights with Network Watcher](./images/networkwatcher-nsg-logflows.jpg)
+- The IP flow verify capability enables you to specify a source and destination IPv4 address, port, protocol (TCP or UDP), and traffic direction (inbound or outbound). IP flow verify then tests the communication and informs you if the connection succeeds or fails. If the connection fails, IP flow verify tells you which security rule allowed or denied the communication, so that you can resolve the problem.
+- The connection troubleshoot capability enables you to test a connection between a VM and another VM, an FQDN, a URI, or an IPv4 address. The test returns similar information returned when using the connection monitor capability, but tests the connection at a point in time, rather than monitoring it over time, as connection monitor does.
+- The NSG flow log capability allows you to log the source and destination IP address, port, protocol, and whether traffic was allowed or denied by an NSG.
+Reference:
 
 ### [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-log)
 - [Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial) - edit and run log queries from Azure Monitor logs.
