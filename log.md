@@ -1,3 +1,8 @@
+### 2022-03-10
+- Nearly done all the questions from examtopics.
+- Feeling pretty good, actually, about taking the 104 exam next week.
+- Would like to actually do a few labs before then.
+
 ### 2022-03-09
 - Almost through all the 341 questions on examtopics. Taking forever because whenever I don't get the correct answer, I find myself going through all the comments and essentially trying to understand where I went wrong. And that happens frequently enough.
 - Listended to the latest Azure Fridays podcast today. Talked about some recent changes to DNS availability\resiliency.
