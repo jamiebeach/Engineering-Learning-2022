@@ -1,3 +1,9 @@
+### 2022-03-13
+- finally complete all the questions on the exam topics practice test. Over 300 questions!! 
+- feeling ok about the exam coming up on Thursday. It was a great day to book it.
+- will spend the next few days re-reviewing some of the harder questions and topic areas.
+- I spent some time with kuberbetes today too. I think that will be the next challenge - setting up and deploying to an AKS cluster. I'm also thinking of doing a tutorial to deploy an ipfs node to AKs.
+
 ### 2022-03-10
 - Nearly done all the questions from examtopics.
 - Feeling pretty good, actually, about taking the 104 exam next week.
