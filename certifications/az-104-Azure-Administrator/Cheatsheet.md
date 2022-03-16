@@ -40,6 +40,7 @@
 - Role assignments can be *Allow* or *Deny*
 - RBAC is free with Azure subscriptions
 - [Built-in roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles) : *owner*, *contributor*, *reader*, *user access administrator*. Also specialized roles (ex. Network Contributor)
+- Cloud Device Administrator can only modify devices. Can't add\remove from groups. Only Group Owners can do that.
 
 ### Azure Policy
 - Free. Define\assign\manage standards (like ISO\HIPPA\GDPR) for resources
