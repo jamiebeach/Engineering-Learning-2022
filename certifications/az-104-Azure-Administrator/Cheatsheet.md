@@ -49,6 +49,7 @@
 - Free. Define\assign\manage standards (like ISO\HIPPA\GDPR) for resources
 - Mark actions and setup as non-compliant
 - Policy Definition -> Policy Initiative -> Policy\Initiative Assignment
+  - Note that when assigning a policy, exclusions on resources can be defined. They can be identified as Subscription/[Resource Group]/[Resource] where resource group and resource are optional. For example, excluding vnet1 from rg1 in sub1 would look like sub1/rg1/vnet1 as a scope added to exclusion list.
 - **Initiative** is a set of policy definitions, grouped together. (ex. all billing policies in an initiative)
 
 ### [Azure Blueprints](https://cloudacademy.com/blog/what-are-azure-blueprints/)
