@@ -143,6 +143,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
   - Deploy Sync service to Azure sub, install Azure File Sync Agent on local computer, Register Windows Server with Storage Sync Service, Create a Sync Group and Cloud Endpoint, Create a Server Endpoint.
   - Has simple conflict-resolution strategy for duplicate filenames : most recent change keeps filename. Older file has endpoint name and conflict number appended to filename. ex.. FilenameWithoutExtension-endpointName-#.ext (number only for when more than one conflict.)
 - SAS (Shared Access Token) : available on container - a URI that grants restricted access to an Azure Storage container. Can specify time period for access as well as allowed ip address ranges.
+- *Note that cloud->server sync takes up to 24 hours as server process needs to run to detect cloud updates. Server->Cloud is immediate.*
 
 #### Azure Disk Storage
 - .vhd virtual VM disks (and images) are stored in Page BLOB's.
