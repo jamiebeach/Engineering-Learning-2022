@@ -28,6 +28,7 @@
     - Require password change
 - [MFA Auth Provider](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-authprovider): MFA usage model. 2 Types - per-authentication and per-user. Usage model can't be changed after created.
 - [Azure AD Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-scheduler): synchronize changes occurring in your on-premises directory using a scheduler
+- Add an administrator on all the computers that will be joined to the Azure AD domain via Device settings from the Devices blade.
 
 
 ### Azure RBAC (Role-Based Access Control)
