@@ -133,6 +133,7 @@ Root -> Management Groups -> Subscriptions -> Resource Groups -> Resources
 | Region-wide outage |   |    | ✅ | ✅ |
 
 - **For RA- variants read access for secondary region is available regardless if primary region goes down*
+- Live migration may be performed to move from LRS to ZRS, but only from LRS.
 - Lifecycle management: moving between hot\cool\archive
 - [Storage accounts overview](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
