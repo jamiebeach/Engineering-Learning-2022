@@ -1,3 +1,14 @@
+### 2022-03-15 to 2022-03-17
+- **PASSED AZ-104!** Got 907, which was a pretty good score considering that 700 is a pass.
+- I think it was between the 15th and 16th where I had an opportunity to redo most of the 300+ practice questions from exam topics and take a test from a course I purchased on Udemy that got me to that point. The focused effort over the better part of a 24 hour period really helped me memorize some things.
+- Specifically what was most challenging (I found) was the monitoring things. Each of the capabilities in Network Watcher, specifically, overlap in various ways but each have their strengths. Beyond that, I really found that you really need to read the questions a couple of times. Missing a key part of the question could mean a different answer. Attention to detail is so important. 
+- All that said, many of the questions are nearly word for word from the practice tests that can be picked up - either from examtopics or from other sites like whizlabs or udemy. Overally, examtopics is probably the most comprehensive.
+- Also you can't forget about the case studies. I got through all the questions... or so I thought. And then suddenly I had another case study to do and I had left only about 15 minutes to do it!!!
+- Anyway, super stoked that I finally got that out of the way.
+- Next will be trying to finish off the AI-100 certification and get some tutorial videos out there (or try anyway).
+- And when that is done, I will be moving on to the full architecture certification, and may try to get the kubernetes and blockchain certs in there as well.
+
+
 ### 2022-03-13
 - finally complete all the questions on the exam topics practice test. Over 300 questions!! 
 - feeling ok about the exam coming up on Thursday. It was a great day to book it.
