@@ -3,6 +3,7 @@
 - Saturday and Sunday were somewhat lazy but I worked through some Kubernetes training.
 - Found a couple of really great resources for interactive K8s courses. Listed them on my learning resources page.
 - Also renamed the repo to be Eng learnings for 2022, rather than specifically Azure.
+- For the rest of March, I'll be focusing on finishing up the AI-900 (Azure AI Fundamentals) MS Learn material with a hope of completing the AI-900 exam in April to earn the cert for free.
 
 ### 2022-03-15 to 2022-03-17
 - **PASSED AZ-104!** Got 907, which was a pretty good score considering that 700 is a pass.
