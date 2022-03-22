@@ -1,3 +1,7 @@
+### 2022-03-21
+- Did a couple of modules on the AI-900 Azure AI fundamentals path. Tonight it was Computer Vision.
+- Also signed up for an AI-900 virtual learning for April 7. Not sure how I'll pull it off though because it is at 3am EST!
+
 ### 2022-03-18 to 2022-03-20
 - So I took a break on Friday, for the most part.
 - Saturday and Sunday were somewhat lazy but I worked through some Kubernetes training.
