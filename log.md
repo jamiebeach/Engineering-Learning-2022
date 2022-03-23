@@ -1,3 +1,6 @@
+### 2022-03-22
+- Again, did a number of modules on MSLearn for the AI-900 cert. I have about 7 modules left now.
+
 ### 2022-03-21
 - Did a couple of modules on the AI-900 Azure AI fundamentals path. Tonight it was Computer Vision.
 - Also signed up for an AI-900 virtual learning for April 7. Not sure how I'll pull it off though because it is at 3am EST!
