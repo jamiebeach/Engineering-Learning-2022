@@ -10,12 +10,21 @@
 - [ ] identify conversational AI workloads
 
 ### Identify guiding principles for responsible AI
-- [ ] describe considerations for fairness in an AI solution
-- [ ] describe considerations for reliability and safety in an AI solution
-- [ ] describe considerations for privacy and security in an AI solution
-- [ ] describe considerations for inclusiveness in an AI solution
-- [ ] describe considerations for transparency in an AI solution
-- [ ] describe considerations for accountability in an AI solution
+- Videos from Microsoft about their AI guiding principles -> [Video Link](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6)
+
+    ![Responsible AI](./images/responsible-ai.svg)
+
+- [ ] describe considerations for **fairness** in an AI solution
+    - Fundamentally a "sociotechnical" challenge
+    - Require greater diversity in people creating and deploying AI solutions
+    - Ultimately reduce bias in how AI treats people of all backgrounds
+- [ ] describe considerations for **reliability and safety** in an AI solution
+    - Resistant to harmful manipulations
+    - be safe for users
+- [ ] describe considerations for **privacy and security** in an AI solution
+- [ ] describe considerations for **inclusiveness** in an AI solution
+- [ ] describe considerations for **transparency** in an AI solution
+- [ ] describe considerations for **accountability** in an AI solution
 
 
 ## Describe fundamental principles of machine learning on Azure (30-35%)
