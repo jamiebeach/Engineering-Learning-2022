@@ -10,6 +10,7 @@
     | Subset of prediction problems | A broad category of machine learning |
     | Explicit introduction of time | Not necessarily time based | 
     | Forecast weather | Prediction problems used with economics |
+    | Scientific, free from bias | Judgemental, biased, subjective |
     
 - [ ] identify features of anomaly detection workloads
 - [ ] identify computer vision workloads
