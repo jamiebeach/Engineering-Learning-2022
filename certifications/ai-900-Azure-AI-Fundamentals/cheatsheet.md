@@ -117,4 +117,4 @@
 ### Identify Azure services for conversational AI
 - [ ] identify capabilities of the QnA Maker service
 - [ ] identify capabilities of the Azure Bot service
-    - Bot service **skills** can be used to extend capabilities of the bot
+    - Bot service [**skills**](https://microsoft.github.io/botframework-solutions/overview/skills/) can be used to extend capabilities of the bot
