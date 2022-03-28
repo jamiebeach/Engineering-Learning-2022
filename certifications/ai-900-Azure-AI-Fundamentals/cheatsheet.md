@@ -4,6 +4,13 @@
 
 ### Identify features of common AI workloads
 - [ ] identify prediction/forecasting workloads
+
+    | Forecasting | Prediction |
+    |-------------|------------|
+    | Subset of prediction problems | A broad category of machine learning |
+    | Explicit introduction of time | Not necessarily time based | 
+    | Forecast weather | Prediction problems used with economics |
+    
 - [ ] identify features of anomaly detection workloads
 - [ ] identify computer vision workloads
 - [ ] identify natural language processing or knowledge mining workloads
