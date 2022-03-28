@@ -13,6 +13,8 @@
     | Scientific, free from bias | Judgemental, biased, subjective |
     
 - [ ] identify features of anomaly detection workloads
+    - Batch or real-time API
+    - Detect anomalies in data with time series
 - [ ] identify computer vision workloads
 - [ ] identify natural language processing or knowledge mining workloads
 - [ ] identify conversational AI workloads
