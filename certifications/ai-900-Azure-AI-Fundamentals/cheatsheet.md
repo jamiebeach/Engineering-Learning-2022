@@ -4,6 +4,11 @@
 
 ### Identify features of common AI workloads
 - [ ] identify prediction/forecasting workloads
+    - **Prediction:**
+        - Prediction and demand forecasting (relationship between visitors and sales)
+        - Text prediction in Google search
+        - Video streaming predicting what you would like to see next
+        - Product recommendations on e-commerce site       
 
     | Forecasting | Prediction |
     |-------------|------------|
@@ -13,11 +18,28 @@
     | Scientific, free from bias | Judgemental, biased, subjective |
     
 - [ ] identify features of anomaly detection workloads
+    - **Anomaly Detection :**
+        - More complicated form of prediction
+        - Events that fall outside of boundaries
     - Batch or real-time API
     - Detect anomalies in data with time series
+        
 - [ ] identify computer vision workloads
+    - **Computer Vision :**
+        - Face detection (with approximate ages and assumed genders)
+        - Scene \ object detection
+      
 - [ ] identify natural language processing or knowledge mining workloads
+    - **NLP (Natural Language Processing) :**
+        - Understanding sentence structure
+        - Inferring what question is asking
+        - Knowledge Mining - Cognitive Search :
+            - Related to the above.
+            - Searching through multiple media types and find organization and indexing in the clutter.
+           
 - [ ] identify conversational AI workloads
+    - **Conversational AI - Chat Bots**
+
 
 ### Identify guiding principles for responsible AI
 - Videos from Microsoft about their AI guiding principles -> [Video Link](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6)
@@ -47,6 +69,8 @@
 ### Describe core machine learning concepts
 - [ ] identify features and labels in a dataset for machine learning
 - [ ] describe how training and validation datasets are used in machine learning
+    - **Unvupervised Learning** : Ability to find patterns in data without human help.
+    - **Supervised Learning** : Humans label the data and give general guidance.
 - [ ] describe how machine learning algorithms are used for model training
 - [ ] select and interpret model evaluation metrics for classification and regression
 
