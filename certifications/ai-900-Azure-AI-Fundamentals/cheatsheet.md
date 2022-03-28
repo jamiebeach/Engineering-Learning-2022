@@ -61,7 +61,22 @@
 
 ### Identify Azure tools and services for computer vision tasks
 - [ ] identify capabilities of the Computer Vision service
+    - A specific resource for the Computer Vision service.
+    - Returns bounding box, image class name and probability score
+    - The **OCR API** is designed for quick extraction of small amounts of text in images.
+    - [The **Read API**](https://westus.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-2/operations/5d986960601faab4bf452005):
+        - For text-heavy images and multi-page, mixed language, and mixed type documents.
+        - Asynchronous
+        - Supports numerous image types
+        - The file size must be less than 50 MB
+        - Supports 164 languages for print text and 9 languages for handwritten
 - [ ] identify capabilities of the Custom Vision service
+    - Azure Custom Vision is an image recognition service that lets you build, deploy, and improve your own image identifier models.
+    - Unlike the Computer Vision service, Custom Vision allows you to specify your own labels and train custom models to detect them.
+    - 2 categories
+        1. Object detection
+        2. Image classification
+    - To use, requires prediction key, endpoint, model name and project id
 - [ ] identify capabilities of the Face service
 - [ ] identify capabilities of the Form Recognizer service
 
