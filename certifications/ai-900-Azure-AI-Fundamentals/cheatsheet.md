@@ -61,6 +61,7 @@
 
 ### Identify Azure tools and services for computer vision tasks
 - [ ] identify capabilities of the Computer Vision service
+
     - A specific resource for the Computer Vision service.
     - Returns bounding box, image class name and probability score
     - The **OCR API** is designed for quick extraction of small amounts of text in images.
