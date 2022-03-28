@@ -93,8 +93,17 @@
 - [ ] identify features and uses for translation
 
 ### Identify Azure tools and services for NLP workloads
-- [ ] identify capabilities of the Text Analytics service
+- [ ] identify capabilities of the Text Analytics ([Language](https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/)?) service
+    - Classify text, sentiment analysis, language detection, key phrases
+    - Sentiment analysis : scores between 0.0 (negative) and 1.0 (positive sentiment). 
 - [ ] identify capabilities of the Language Understanding service (LUIS)
+    - Superseded by Cognitive Services Language?
+    - 4 types of entities can be created:
+        - Machine Learned
+        - Regex
+        - Pattern.any
+        - List
+    - Also capable of sentiment analysis
 - [ ] identify capabilities of the Speech service
 - [ ] identify capabilities of the Translator Text service
 
@@ -108,3 +117,4 @@
 ### Identify Azure services for conversational AI
 - [ ] identify capabilities of the QnA Maker service
 - [ ] identify capabilities of the Azure Bot service
+    - Bot service **skills** can be used to extend capabilities of the bot
