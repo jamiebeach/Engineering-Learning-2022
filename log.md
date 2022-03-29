@@ -1,3 +1,6 @@
+### 2022-03-28
+- Been working the last couple of days on a cheatsheet for AI-900 exam\certification.
+
 ### 2022-03-22
 - Again, did a number of modules on MSLearn for the AI-900 cert. I have about 7 modules left now.
 
