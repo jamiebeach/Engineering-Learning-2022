@@ -86,11 +86,25 @@
 
 - [ ] describe how training and validation datasets are used in machine learning
 
+    - **Labelling** : The process of tagging training data with known values.
+        - Labeled data means data is marked up/annotated to identify what the ML model should predict.
+    - **Validation dataset** : sample of data used to give an estimate of model skill when tuning model hyperparameters.
+    - **Test dataset** : sample of data used to provide an unbiased evaluation of a final model fit on the training dataset.
     - **Unvupervised Learning** : Ability to find patterns in data without human help.
     - **Supervised Learning** : Humans label the data and give general guidance.
 
 - [ ] describe how machine learning algorithms are used for model training
-- [ ] select and interpret model evaluation metrics for classification and regression
+
+    - **Regression** : Prediction of a numeric target
+    - **Classification** : Determine the category\type or class of an item or data
+    - **Clustering** : Method of grouping data points into similar clusters. Also referred to as segmentation.
+
+- [ ] select and interpret model [evaluation metrics](https://docs.microsoft.com/en-us/azure/machine-learning/studio/evaluate-model-performance) for classification and regression
+    - [Machine learning metrics](https://docs.microsoft.com/en-us/dotnet/machine-learning/resources/metrics)
+    - **Accuracy** : proportion of correctly classified instances.
+    - **Confidence** :  probability score of the object classification (which you can interpret as the confidence of the predicted class being correct).
+    - **Coefficient of determination (R2)** : predictive power of model. 1.0 means perfect fit. Otherwise can be negative scores.
+    - **RMS-loss or Root Mean Squared Error (RMSE)** : measures the difference between values predicted by a model and the values observed from the environment that is being modeled.
 
 ### Identify core tasks in creating a machine learning solution
 - [ ] describe common features of data ingestion and preparation
@@ -99,7 +113,7 @@
 - [ ] describe common features of model deployment and management
 
 ### Describe capabilities of no-code machine learning with Azure Machine Learning studio
-- [ ] automated ML UI
+- [ ] [automated ML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) UI
 
     - [**Confusion matrices**](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-understand-automated-ml#confusion-matrix) provide a visual for how a machine learning model is making systematic errors in its predictions for classification models. The word "confusion" in the name comes from a model "confusing" or mislabeling samples.
         - Identifies how many times evaluated results differ from expected labels
@@ -112,7 +126,10 @@
             - [See this article](https://docs.microsoft.com/en-us/previous-versions/azure/machine-learning/classic/evaluate-model-performance#inspecting-the-evaluation-results-1).
 
 - [ ] azure Machine Learning designer
-
+    - Lets you visually connect datasets and modules on an interactive canvas to create machine learning models.
+    - Can connect modules to create a pipeline draft and this can be published.
+    - To consume a published pipeline, use the authentication key and REST endpoint.
+    - Real-time endpoints need to be deployed to AKS. [https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#deploy](See here).
 
 ## Describe features of computer vision workloads on Azure (15-20%)
 
@@ -120,6 +137,11 @@
 - [ ] identify features of image classification solutions
 - [ ] identify features of object detection solutions
 - [ ] identify features of optical character recognition solutions
+
+    - [**Form Recognizer**](https://azure.microsoft.com/en-us/services/cognitive-services/form-recognizer/) : extract text, key/value pairs and tables from documents.
+        - Examples:
+            - Scan receipt and extract subtotals.
+   
 - [ ] identify features of facial detection, facial recognition, and facial analysis solutions
 
     - [**Face Service**](https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview) : provides AI algorithms that detect, recognize, and analyze human faces in images.
@@ -144,7 +166,7 @@
         - The file size must be less than 50 MB
         - Supports 164 languages for print text and 9 languages for handwritten
     
-- [ ] identify capabilities of the Custom Vision service
+- [ ] identify capabilities of the [Custom Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/overview) service
 
     - Azure Custom Vision is an image recognition service that lets you build, deploy, and improve your own image identifier models.
     - Unlike the Computer Vision service, Custom Vision allows you to specify your own labels and train custom models to detect them.
