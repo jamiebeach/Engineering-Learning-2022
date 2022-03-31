@@ -83,6 +83,7 @@
         - Example: if predicting fares of taxi trips, could use things like distance travelled or length of time in taxi as features.
     - The *Split Data module* is particularly useful when you need to separate data into training and testing sets. Use the Split Rows option if you want to divide the data into two parts. You can specify the percentage of data to put in each split, but by default, the data is divided 50-50.
     - [*Feature engineering*](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/create-features) is used to generate additional features.
+    - In Azure Machine Learning, scaling and normalization techniques are applied to facilitate feature engineering. Collectively, these techniques and feature engineering are referred to as **featurization**.
 
 - [ ] describe how training and validation datasets are used in machine learning
 
