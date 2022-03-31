@@ -173,6 +173,9 @@
     - 2 categories
         1. Object detection
         2. Image classification
+            - Need to select either multilabel (multiple tags per image) or multiclass (single tag per image)
+        - Both catagories can select from a variety of different domains.
+        
     - To use, requires prediction key, endpoint, model name and project id
 
 - [ ] identify capabilities of the Face service
