@@ -136,6 +136,7 @@
 ### Identify common types of computer vision solution:
 - [ ] identify features of image classification solutions
 - [ ] identify features of object detection solutions
+    - **Semantic segmentation** achieves fine-grained inference by making dense predictions inferring labels for every pixel, so that each pixel is labeled with the class of its enclosing object ore region.
 - [ ] identify features of optical character recognition solutions
 
     - [**Form Recognizer**](https://azure.microsoft.com/en-us/services/cognitive-services/form-recognizer/) : extract text, key/value pairs and tables from documents.
@@ -152,6 +153,7 @@
         - Returns rectangle coordinates of faces locations. Also returns unique ID that represents stored face data.
             - Optionally can extract set of face-related attributes : head pose, age, emption, facial hair and glasses.
         - Use for face identification or face matching (verification)
+        - Benefits from having multiple angles of a face per person for increased accuracy
 
 ### Identify Azure tools and services for computer vision tasks
 - [ ] identify capabilities of the Computer Vision service
