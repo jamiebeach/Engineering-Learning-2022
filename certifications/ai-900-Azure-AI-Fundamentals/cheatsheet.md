@@ -99,6 +99,8 @@
     - **Regression** : Prediction of a numeric target
     - **Classification** : Determine the category\type or class of an item or data
     - **Clustering** : Method of grouping data points into similar clusters. Also referred to as segmentation.
+    - Available algorithms in Azure ML :
+        - ![Azure ML algorithms mind map](./images/azure-machine-learning-algorithms-mindmap.drawio.svg)
 
 - [ ] select and interpret model [evaluation metrics](https://docs.microsoft.com/en-us/azure/machine-learning/studio/evaluate-model-performance) for classification and regression
     - [Machine learning metrics](https://docs.microsoft.com/en-us/dotnet/machine-learning/resources/metrics)
