@@ -212,6 +212,7 @@
     - Also capable of sentiment analysis
 
     - Capabilities of Cognitive Service for Language :
+
 | Capability | Description | Development Options |
 |------------|-------------|---------------------|
 | Named Entity Recognition (NER)	| Identifies entities in text across several categories.| Language studio, REST, SDK |
