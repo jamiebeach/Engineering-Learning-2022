@@ -1,5 +1,8 @@
 # Exam AI-900: Microsoft Azure AI Fundamentals
 
+## Useful Links
+- [Azure Machine Learning Cheat Sheet](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet)
+
 ## Describe Artificial Intelligence workloads and considerations (15-20%)
 
 ### Identify features of common AI workloads
