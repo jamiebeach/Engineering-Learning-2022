@@ -104,10 +104,24 @@
 
 - [ ] select and interpret model [evaluation metrics](https://docs.microsoft.com/en-us/azure/machine-learning/studio/evaluate-model-performance) for classification and regression
     - [Machine learning metrics](https://docs.microsoft.com/en-us/dotnet/machine-learning/resources/metrics)
-    - **Accuracy** : proportion of correctly classified instances.
-    - **Confidence** :  probability score of the object classification (which you can interpret as the confidence of the predicted class being correct).
-    - **Coefficient of determination (R2)** : predictive power of model. 1.0 means perfect fit. Otherwise can be negative scores.
-    - **RMS-loss or Root Mean Squared Error (RMSE)** : measures the difference between values predicted by a model and the values observed from the environment that is being modeled.
+    
+    - Regression Metrics
+
+    | Metric | Description |
+    |--------|-------------|
+    | Confidence | probability score of the object classification (which you can interpret as the confidence of the predicted class being correct). |
+    | Coefficient of determination (R2) | predictive power of model. 1.0 means perfect fit. Otherwise can be negative scores. |
+    | RMS-loss or Root Mean Squared Error (RMSE) | measures the difference between values predicted by a model and the values observed from the environment that is being modeled. |
+    | Absolute Loss | how close the predictions are to the actual outcomes. It is the average of all the model errors, where model error is the absolute distance between the predicted label value and the correct label value. This prediction error is calculated for each record of the test data set. Finally, the mean value is calculated for all recorded absolute errors. |
+    | Squared Loss | how close a regression line is to a set of test data values by taking the distances from the points to the regression line (these distances are the errors E) and squaring them. The squaring gives more weight to larger differences. |
+    
+    - Classification Metrics
+
+    | Metric | Description |
+    |--------|-------------|
+    | Accuracy | proportion of correctly classified instances. |
+    | AUC | Area under the curve measures the area under the curve created by sweeping the true positive rate vs. the false positive rate |
+    | F1 Score | It's the harmonic mean of the precision and recall. F1 Score is helpful when you want to seek a balance between Precision and Recall. |
 
 ### Identify core tasks in creating a machine learning solution
 - [ ] describe common features of data ingestion and preparation
