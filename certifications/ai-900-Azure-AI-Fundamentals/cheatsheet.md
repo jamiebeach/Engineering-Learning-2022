@@ -232,18 +232,17 @@
 - [ ] identify capabilities of the Speech service
     
     | Capability | Description | Development Options |
-    |---------|-------------|---------------------|
+    |------------|-------------|---------------------|
     | Speech-to-text | Real-time, batch, multi-device conversation, transcription, custom models, pronunciation assessment | SDK, REST |
     | Text-to-speech | Pre-built neural voices, custom neural-voices | SDK, REST |
     | Speech translation | Speech translation enables real-time, multilanguage translation of speech to your applications, tools, and devices. Use this feature for speech-to-speech and speech-to-text translation. | SDK | 
-    | Language Identification | Language identification is used to identify languages spoken in audio when compared against a list of supported languages. Use language identification by itself, with speech-to-text recognition, or with speech translation.	| SDK | 
-    | Voice Assistant | Voice assistants using the Speech service empower developers to create natural, humanlike conversational interfaces for their applications and experiences. The voice assistant feature provides fast, reliable interaction between a device and an assistant implementation that uses the Bot Framework's Direct Line Speech channel or the integrated custom commands service for task completion.	| SDK | 
-    | Speaker Recognition | Speaker recognition provides algorithms that verify and identify speakers by their unique voice characteristics. Speaker recognition is used to answer the question, "Who is speaking?".	| SDK, REST |
+    | Language Identification | Language identification is used to identify languages spoken in audio when compared against a list of supported languages. Use language identification by itself, with speech-to-text recognition, or with speech translation. | SDK | 
+    | Voice Assistant | Voice assistants using the Speech service empower developers to create natural, humanlike conversational interfaces for their applications and experiences. The voice assistant feature provides fast, reliable interaction between a device and an assistant implementation that uses the Bot Framework's Direct Line Speech channel or the integrated custom commands service for task completion. | SDK | 
+    | Speaker Recognition | Speaker recognition provides algorithms that verify and identify speakers by their unique voice characteristics. Speaker recognition is used to answer the question, "Who is speaking?". | SDK, REST |
     
 
 
 - [ ] identify capabilities of the [Translator Text service](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-overview)
-    
     | Capability | Description | Development Options |
     |---------|-------------|---------------------|
     | Text Translation | Execute text translation between supported source and target languages in real time.	| REST API, Docker Container |
