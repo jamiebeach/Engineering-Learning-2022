@@ -212,21 +212,21 @@
     - Also capable of sentiment analysis
 
     - Capabilities of Cognitive Service for Language :
-    | Capability | Description | Development Options |
-    |------------|-------------|---------------------|
-    | Named Entity Recognition (NER)	| Identifies entities in text across several categories.| Language studio, REST, SDK |
-    | Personally Identifiable Information (PII) detection |	Identifies entities in text across several categories of sensitive information (ex. account information). | Language studio, REST, SDK |
-    | Key phrase extraction |	Evaluates unstructured text - for each input document, returns a list of key phrases and main points. | Language studio, REST, SDK, Docker |
-    | Entity linking | Disambiguates identity of an entity in text - provides links to the entity on Wikipedia. | Language studio, REST, SDK |
-    | Text Analytics for health | Extracts information from unstructured medical texts (clinical notes and doctor's notes). | Language studio, REST, SDK, Docker |
-    | Custom NER | Build an AI model to extract custom entity categories, using unstructured text that you provide. | Language studio, REST |
-    | Analyze sentiment and opinions | Provides sentiment labels ("negative", "neutral", "positive") for sentences and documents. Additionally can provide granular information about opinions related to words that appear in the text. | Language studio, REST, SDK, Docker |
-    | Language detection | Evaluates text, and determines the language it was written in. It returns a language identifier and a score that indicates the strength of the analysis. | Language studio, REST, SDK, Docker | 
-    | Custom text classification (preview) | Build an AI model to classify unstructured text into custom classes that you define. | Language studio, REST |
-    | Text Summarization (preview) | Extracts key sentences that collectively convey the essence of a document. | Language studio, REST |
-    | Conversational language understanding (preview) |	Build an AI model to bring the ability to understand natural language into apps, bots, and IoT devices. | Language Studio |
-    | Question answering | Provides answers to questions extracted from text input, using semi-structured content such as: FAQs, manuals, and documents. | Language studio, REST, SDK |
-    | Orchestration workflow | Train language models to connect your applications to question answering, conversational language understanding, and LUIS | Language studio, REST |
+| Capability | Description | Development Options |
+|------------|-------------|---------------------|
+| Named Entity Recognition (NER)	| Identifies entities in text across several categories.| Language studio, REST, SDK |
+| Personally Identifiable Information (PII) detection |	Identifies entities in text across several categories of sensitive information (ex. account information). | Language studio, REST, SDK |
+| Key phrase extraction |	Evaluates unstructured text - for each input document, returns a list of key phrases and main points. | Language studio, REST, SDK, Docker |
+| Entity linking | Disambiguates identity of an entity in text - provides links to the entity on Wikipedia. | Language studio, REST, SDK |
+| Text Analytics for health | Extracts information from unstructured medical texts (clinical notes and doctor's notes). | Language studio, REST, SDK, Docker |
+| Custom NER | Build an AI model to extract custom entity categories, using unstructured text that you provide. | Language studio, REST |
+| Analyze sentiment and opinions | Provides sentiment labels ("negative", "neutral", "positive") for sentences and documents. Additionally can provide granular information about opinions related to words that appear in the text. | Language studio, REST, SDK, Docker |
+| Language detection | Evaluates text, and determines the language it was written in. It returns a language identifier and a score that indicates the strength of the analysis. | Language studio, REST, SDK, Docker | 
+| Custom text classification (preview) | Build an AI model to classify unstructured text into custom classes that you define. | Language studio, REST |
+| Text Summarization (preview) | Extracts key sentences that collectively convey the essence of a document. | Language studio, REST |
+| Conversational language understanding (preview) |	Build an AI model to bring the ability to understand natural language into apps, bots, and IoT devices. | Language Studio |
+| Question answering | Provides answers to questions extracted from text input, using semi-structured content such as: FAQs, manuals, and documents. | Language studio, REST, SDK |
+| Orchestration workflow | Train language models to connect your applications to question answering, conversational language understanding, and LUIS | Language studio, REST |
 
 
 - [ ] identify capabilities of the Speech service
