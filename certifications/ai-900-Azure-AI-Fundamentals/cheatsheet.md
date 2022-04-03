@@ -127,10 +127,22 @@
     | F1 Score | It's the harmonic mean of the precision and recall. F1 Score is helpful when you want to seek a balance between Precision and Recall. |
 
 ### Identify core tasks in creating a machine learning solution
-- [ ] describe common features of data ingestion and preparation
-- [ ] describe feature engineering and selection
-- [ ] describe common features of model training and evaluation
+- [ ] describe common features of [data ingestion and preparation](https://docs.microsoft.com/en-us/azure/machine-learning/concept-data-ingestion)
+    - Taking data from one or multiple sources and then preparing for training ML models.
+    - Can use Azure capabilities like Azure Data Factory or Azure ML Python SDK
+- [ ] describe [feature engineering](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features) and selection
+    - It's often necessary to create additional (engineered) features that provide information to better differentiate patterns in the data.
+    - Use of domain knowledge of the data is leveraged to create features that, in turn, help machine learning algorithms to learn better.
+    - Includes techniques such as **normalization**, **handling missing data**, **converting text to numeric**.
+- [ ] describe common features of model training and [evaluation](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/evaluate-model)
+    - Training is the execution of the machine learning algorithm until a point where the error is minimized to some critical threshold.
+    - Evaluation is the measurement of the model after training is complete. Various evaluation metrics are possible, including Accuracy, Precision, Recall, F1 score and AUC (area under curve).
 - [ ] describe common features of model deployment and management
+    - You can deploy a model and create key and endpoint for executing the model via a service call.
+    - [An endpoint](https://docs.microsoft.com/en-us/azure/machine-learning/concept-endpoints) is an HTTPS endpoint that clients can call to receive the inferencing (scoring) output of a trained model.
+    - Both online and batch endpoints exist.
+    - A single endpoint can have multiple deployments and blue-green deployments can occur (balancing requests between instances as new model is being deployed).
+
 
 ### Describe capabilities of no-code machine learning with Azure Machine Learning studio
 - [ ] [automated ML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) UI
