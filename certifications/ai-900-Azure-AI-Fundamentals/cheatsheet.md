@@ -115,7 +115,7 @@
     | Confidence | probability score of the object classification (which you can interpret as the confidence of the predicted class being correct). |
     | Coefficient of determination (R2) | predictive power of model. 1.0 means perfect fit. Otherwise can be negative scores. |
     | RMS-loss or Root Mean Squared Error (RMSE) | measures the difference between values predicted by a model and the values observed from the environment that is being modeled. |
-    | Absolute Loss | how close the predictions are to the actual outcomes. It is the average of all the model errors, where model error is the absolute distance between the predicted label value and the correct label value. This prediction error is calculated for each record of the test data set. Finally, the mean value is calculated for all recorded absolute errors. |
+    | Absolute Loss | (also **Mean Absolute Error**) how close the predictions are to the actual outcomes. It is the average of all the model errors, where model error is the absolute distance between the predicted label value and the correct label value. This prediction error is calculated for each record of the test data set. Finally, the mean value is calculated for all recorded absolute errors. |
     | Squared Loss | how close a regression line is to a set of test data values by taking the distances from the points to the regression line (these distances are the errors E) and squaring them. The squaring gives more weight to larger differences. |
     
     - Classification Metrics
