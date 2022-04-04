@@ -162,6 +162,15 @@
     - Can connect modules to create a pipeline draft and this can be published.
     - To consume a published pipeline, use the authentication key and REST endpoint.
     - Real-time endpoints need to be deployed to AKS. [https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#deploy](See here).
+    - Designer modules (for Data Preparation) :
+    
+    | Category | Description | Example Components \ Modules |
+    |--------|-------------|--------------------------------|
+    | Data Input and Outpue | Move data into pipeline | Enter data manually, export, import |
+    | Data Transformation | Transform the data | Add rows, apply math op, clean missing data, clip values, group into bins, **normalize**, **join data**, **remove duplicate rows**, select columns, split data |
+    | Feature Selection | Select subset of features | Filter based, permutation, feature importance |
+    | Statistical functions | Provides statistical methods | Summarize data |
+
 
 ## Describe features of computer vision workloads on Azure (15-20%)
 
