@@ -123,7 +123,7 @@
     | Metric | Description |
     |--------|-------------|
     | Accuracy | proportion of correctly classified instances. |
-    | AUC | Area under the curve measures the area under the curve created by sweeping the true positive rate vs. the false positive rate |
+    | AUC | (True positive rate) Area under the curve measures the area under the curve created by sweeping the true positive rate vs. the false positive rate |
     | F1 Score | It's the harmonic mean of the precision and recall. F1 Score is helpful when you want to seek a balance between Precision and Recall. |
 
 ### Identify core tasks in creating a machine learning solution
