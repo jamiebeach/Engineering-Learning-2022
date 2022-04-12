@@ -126,6 +126,9 @@
     | AUC | (True positive rate) Area under the curve measures the area under the curve created by sweeping the true positive rate vs. the false positive rate |
     | F1 Score | It's the harmonic mean of the precision and recall. F1 Score is helpful when you want to seek a balance between Precision and Recall. |
 
+    - Precision: number of true-positives out of total guesses (tp / (tp + fp))
+    - Recall: number of true-positives out of total positives (tp / (tp + fn))
+
 ### Identify core tasks in creating a machine learning solution
 - [ ] describe common features of [data ingestion and preparation](https://docs.microsoft.com/en-us/azure/machine-learning/concept-data-ingestion)
     - Taking data from one or multiple sources and then preparing for training ML models.
