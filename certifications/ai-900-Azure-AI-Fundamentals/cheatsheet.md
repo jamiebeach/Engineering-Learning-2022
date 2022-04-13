@@ -123,7 +123,7 @@
     | Metric | Description |
     |--------|-------------|
     | Accuracy | proportion of correctly classified instances. |
-    | AUC | (True positive rate) Area under the curve measures the area under the curve created by sweeping the true positive rate vs. the false positive rate |
+    | AUC | (True positive rate) Area under the curve measures the area under the curve created by sweeping the true positive rate vs. the false positive rate. An AUC of 0.5 means the model has no discrimination capacity to distinguish between positive class and negative class. If the AUC for your model is higher than 0.5 for a binary classification model, then the model performs better than a random guess. |
     | F1 Score | It's the harmonic mean of the precision and recall. F1 Score is helpful when you want to seek a balance between Precision and Recall. |
 
     - Precision: number of true-positives out of total guesses (tp / (tp + fp))
