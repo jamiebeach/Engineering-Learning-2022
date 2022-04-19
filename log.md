@@ -1,3 +1,11 @@
+### 2022-04-18
+- A bit of time since my last log entry.
+- I did pass AI-900 and succeeded in the Spring Challenge that MS had. Unfortunate the delivery address to get the award needed to be in one of several EU countries so I couldn't receive the award. I looked at parcel shipping but would have been too expensive I think. Still happy to have done it. Another certification under my belt :)
+- I started the AZ-305 content in this github repo and also began going through the Udemy AZ-305 certification prep course.
+- I also briefly contemplated the Udacity blockchain nano-degree. But compared to doing Azure certifications, this is quite expensive.
+- Might still do it. Will see... :)
+- Aiming to do AZ-305 by July.
+
 ### 2022-03-28
 - Been working the last couple of days on a cheatsheet for AI-900 exam\certification.
 
