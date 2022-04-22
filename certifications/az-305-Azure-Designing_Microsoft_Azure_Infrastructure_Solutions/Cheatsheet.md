@@ -2,15 +2,30 @@
 
 ### Design a solution for logging and monitoring
 
-- [] design a log routing solution
-- [] recommend an appropriate level of logging
-- [] recommend monitoring tools for a solution
+- [ ] design a log routing solution
+- [ ] recommend an appropriate level of logging
+- [ ] recommend monitoring tools for a solution
 
 ### Design authentication and authorization solutions
 
-- [] recommend a solution for securing resources with role-based access control
-- [] recommend an identity management solution
-- [] recommend a solution for securing identities
+- [ ] recommend a solution for securing resources with role-based access control
+- [ ] recommend an identity management solution
+  - **Active Directory**
+    - **AD Connect**
+      - Synchronization Services - responsible for matching between on-prem and cloud
+        - Filtering : limit which objects are sychronized
+        - Password Hash Synchronization : user can use same password on-prem and in cloud
+        - Password Writeback : change password in cloud and write-back to on-prem
+        - Device Writeback : update device in AAD and write-back to on-prem AD
+        - Prevent Accidental Deletes : useful to help prevent 
+        - Auto Upgrade : ensures AD Connect always up to date
+      - Password Sync Options
+        - Password Sync : Ensures password same in AD DS and AAD
+        - Passthrough Authentication : When user logs into AAD, request forwarded to AD DS - single source
+        - AD FS : Use AD Federation Service server to fully federate across AD DS and AAD, along with other services
+      - AD Federation Services - hybrid deployment
+      - Health Monitoring
+- [ ] recommend a solution for securing identities
 
 ### Design governance
 - [] recommend an organizational and hierarchical structure for Azure resources
