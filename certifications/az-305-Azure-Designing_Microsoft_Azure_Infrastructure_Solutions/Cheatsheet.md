@@ -19,13 +19,87 @@
         - Device Writeback : update device in AAD and write-back to on-prem AD
         - Prevent Accidental Deletes : useful to help prevent 
         - Auto Upgrade : ensures AD Connect always up to date
+
       - Password Sync Options
         - Password Sync : Ensures password same in AD DS and AAD
         - Passthrough Authentication : When user logs into AAD, request forwarded to AD DS - single source
         - AD FS : Use AD Federation Service server to fully federate across AD DS and AAD, along with other services
       - AD Federation Services - hybrid deployment
       - Health Monitoring
+
+    - **Cloud Authentication**
+      - Cloud-Only
+
+      - Password Hash Sync + Seamless SSO
+        - Every 2 min, AD connect syncs up with On-Prem
+        - Least effort required
+        - Seamless SSO
+        - Highly Availabile, Can deploy additional AD Connect Server in staging mode
+        - No immediate enforcement in on-prem : consider running immediate sync if many changes done on-prem
+
+      - Pass-Through Authentication + Seamless SSO
+        - validation happens on-prem
+        - Agents need to be installed with access to AD
+        - More effort
+        - Need 1 or more (recommended 3) agents installed on existing servers
+        - Must have onprem AD controllers
+        - Need outbound access to internet
+        - Seemless SSO
+        - Recommended to deploy 2 extra pass through agents
+
+      - Federated Authentication
+        - On-Prem does authentication
+          - Third Party Providers
+          - Federation proxies - rediredt to alt sign-in
+
+    - **Single Sign On**
+      - Provided by Azure AD Connect for users using Password Hash Sync or Pass-Through
+    
+    - **MFA**
+      - Works by requiring 2 or more of the following verification methods :
+        - Something you know (password)
+        - Something you have (cellphone)
+        - Something you are (biometrics)
+      - Available : Phone Call, SMS, Mobile App (authenticator), Mobile app verification code, Third-party tokens
+
+    - Self-Service Password Reset
+      - Requires p2 premium license
+      - none, selected, all
+      - can choose number of methods required (1 or 2)
+      - Default 180 days to re-confirm
+      - https://aka.ms/sspr
+
+      
 - [ ] recommend a solution for securing identities
+  - Identity Protection
+    - Detect vulnerabilities and risky accounts
+    - Investigating risk events
+      - sending notifications, contextul info
+    - Risk-based conditional access polcies
+
+  - Protection Roles :
+    - Global admin - full access, onboard identiy protection
+    - Securiety admin - full access
+    - Security reader - read-only access to identit protection
+
+  - Privileged Identity Management (PIM)
+    - Azure PIM
+      - visibility into users with privileged access
+        - Azure Resources
+        - Azure AD
+      - Enable on-demande administratove access
+      - View admin history
+      - Setup alerts
+      - Require approvals
+
+    - PIM process
+      - Activiation process (via mfa, approval workflow, time restrictions)
+
+    - Azure AD P2 License required
+
+    - PIM Roles :
+      - Pviileged Role Admin
+      - Security Admin
 
 ### Design governance
 - [] recommend an organizational and hierarchical structure for Azure resources
