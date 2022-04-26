@@ -21,6 +21,12 @@
     - Azure Monitor for Containers
     - App Insights
 
+  - **Recomended Tools** :
+    - Diagnostics : diagnostic log settings configured and route to destination
+    - Health, Availability, Performance Monitoring : Azure Monitor Metrics and Logs routed to Log Analytics Workspace
+    - Application Monitoring: Application Insights, 3rd party solutions (ex App Dynamics, DataDog)
+    - Security Logs : Security Center (Log Analytics Workspace), 3rd Party Integration via Event hub
+
 ### Design authentication and authorization solutions
 
 - [ ] recommend a solution for securing resources with role-based access control
