@@ -5,6 +5,21 @@
 - [ ] design a log routing solution
 - [ ] recommend an appropriate level of logging
 - [ ] recommend monitoring tools for a solution
+  - Azure Monitor
+    - Collects : 
+      - application monitoring data
+      - Guest OS monitoring data
+      - Azure resource monitoring data
+      - Azure subscription monitoring data
+      - Azure tenant monitoring data
+    - Diagnostics Logs :
+      - different for each resource
+      - one or more destinations available
+        - event hubs, log analytics workspace, storage
+      - can alter level of logging - information or critical for example
+    - Azure Monitoring
+    - Azure Monitor for Containers
+    - App Insights
 
 ### Design authentication and authorization solutions
 
