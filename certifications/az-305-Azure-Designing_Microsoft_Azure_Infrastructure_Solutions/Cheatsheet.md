@@ -4,6 +4,16 @@
 
 - [ ] design a log routing solution
 - [ ] recommend an appropriate level of logging
+  - [Alert Rules](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) :
+    - Severity : 0-4 (critical, error, warning, info, verbose)
+    - action to take on specific condition
+    - Rule -> Resource -> Condition (signal and signal logic) -> Action Group
+      - [Action Group](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups) : notification prefs defined by Azure sub owner.
+        - Notification could be email, SMS, etc. Also ITSM (like ServiceNow) connector can be used.
+        - Lots of options in Action Group with logical conditions on resources, for example
+
+    - Log Analytics Workspace
+    - Logging destination : Log analytics workspace (query and analyze), azure storage (backup, archive, audit), event hubs (can then stream to something like Splunk)
 - [ ] recommend monitoring tools for a solution
   - Azure Monitor
     - Collects : 
