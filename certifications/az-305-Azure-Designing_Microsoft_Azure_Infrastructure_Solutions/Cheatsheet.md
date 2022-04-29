@@ -133,21 +133,80 @@
       - Security Admin
 
 ### Design governance
-- [] recommend an organizational and hierarchical structure for Azure resources
-- [] recommend a solution for enforcing and auditing compliance
+- [ ] recommend an organizational and hierarchical structure for Azure resources
+- [ ] recommend a solution for enforcing and auditing compliance
 
 ### Design identities and access for applications
-- [] recommend solutions to allow applications to access Azure resources
-- [] recommend a solution that securely stores passwords and secrets
-- [] recommend a solution for integrating applications into Azure Active Directory (Azure AD)
-- [] recommend a user consent solution for applications
+- [ ] recommend solutions to allow applications to access Azure resources
+- [ ] recommend a solution that securely stores passwords and secrets
+- [ ] recommend a solution for integrating applications into Azure Active Directory (Azure AD)
+- [ ] recommend a user consent solution for applications
 
 ## Design Data Storage Solutions (25-30%)
 
 ### Design a data storage solution for relational data
-- [] recommend database service tier sizing
-- [] recommend a solution for database scalability
-- [] recommend a solution for encrypting data at rest, data in transmission, and data in use
+- [ ] recommend database service tier sizing
+   
+  - **Azure SQL Tiers**
+ 
+   | Tier | Good For | Examples |
+   |------|----------|----------|
+   | Basic | Small database with single concurrent user | small db, single active operation, dev/test, small apps, 5 DTU, 2GB storage |
+   | Standard | Medium-sized database that must support multiple concurrent connections | cloud apps, multiple ops, web apps, 10-100 DTU, 1 TB , 3000 DTU max|
+   | Premium | Large db - support large number of concurrent connections/operations | high transaction volumes, large number of users, multiple ops, mission critical apps, 100-800 DTU, 4TB, 4000 DTU max |
+ 
+ - **Third-party db options**
+    - Managed :
+      - MySQL
+      - PostgreSQL
+    - Not Managed :
+      - Windows or Linux hosted variants of MySQL, or other databases
+  
+  - **Azure SQL Pricing Models**
+    - [Azure Pricing Models](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu?view=azuresql)
+    
+    - vCore Pricing : independently scale, optimize price\perforamnce, choose hardware gen (gen4 - 24 logical CPIs; Gen5 - 80 CPUs)
+      - General Purpose Tier
+      - Business Critical
+      - Hyperscale
+
+    - DTU
+      - Flexible compute sizes
+      - All 99.99 SLA
+      - Retention : 7 days for basic, 35 days standard/premium
+      - IO : 2.5 IOPS per DTU for Standard/Basic, 48 IOPS for Premium
+      - OLTP processing for Premium only
+
+  - Caching 
+    - Private caching
+    - Shared caching
+
+  - **Cosmos DB**
+    - globally distributed
+    - supports schema-less data
+    - build highly responsive, always on apps with highly changing data
+    - Consistency Levels : 5 levels
+      - Strong : guaranteed write ops
+      - Bounded Stateless : config how stale docs can be within replicas
+      - Session : all r/w ops are consistent within user session
+      - Consistent PRevix : ensures chnages are read in order
+      - Eventual Consistency : Eventual consistency
+
+  - **Big Data Solution**
+    - ingest, store, prep\train, model and serve
+    - SQL Data Warehouse
+    - HDInsight (hadoop, spark, hive, etc)
+    - Data Lake Analytics : on demand job service for big data
+    - Databricks
+
+   - **Azure Data Factory**
+    - ETL, integration services
+    - Facilitae data-drive workflows\pipelines
+    - Connect, collect, transform, publish, monitor
+
+
+- [ ] recommend a solution for database scalability
+- [ ] recommend a solution for encrypting data at rest, data in transmission, and data in use
 
 ### Design data integration
 - [] recommend a solution for data integration
