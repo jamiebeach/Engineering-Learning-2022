@@ -225,19 +225,28 @@
 ## Design Business Continuity Solutions (10-15%)
 
 ### Design a solution for backup and disaster recovery
-- [] recommend a recovery solution for Azure, hybrid, and on-premises workloads that meets
-- [] recovery objectives (Recovery Time Objective [RTO], Recovery Level Objective [RLO],
-- [] Recovery Point Objective [RPO])
-- [] understand the recovery solutions for containers
-- [] recommend a backup and recovery solution for compute
-- [] recommend a backup and recovery solution for databases
-- [] recommend a backup and recovery solution for unstructured data
+- [ ] recommend a recovery solution for Azure, hybrid, and on-premises workloads that meets
+- [ ] recovery objectives (Recovery Time Objective RTO, Recovery Level Objective RLO, Recovery Point Objective RPO)
+
+  | SLA | Downtime/week | Downtime/month | Downtime/year |
+  |-----|---------------|----------------|---------------|
+  | 90% | 16.8 hrs      | 72 hrs         | 36.5 days     |
+  | 99% | 1.68  hrs     | 7.2 hrs        | 3.65 days     |
+  | 99.9% | 10.1 min    | 43.2 min       | 8.76 hrs      |
+  | 99.99% | 1.01 min   | 4.32 min       | 52.56 min     |
+  | 99.999% | 6.05 sec  | 25.9 sec       | 5.26 min      |
+  | 99.9999% | 0.605 sec | 2.59 sec      | 31.5 sec      |
+  
+- [ ] understand the recovery solutions for containers
+- [ ] recommend a backup and recovery solution for compute
+- [ ] recommend a backup and recovery solution for databases
+- [ ] recommend a backup and recovery solution for unstructured data
 
 ### Design for high availability
-- [] identify the availability requirements of Azure resources
-- [] recommend a high availability solution for compute
-- [] recommend a high availability solution for non-relational data storage
-- [] recommend a high availability solution for relational data storage
+- [ ] identify the availability requirements of Azure resources
+- [ ] recommend a high availability solution for compute
+- [ ] recommend a high availability solution for non-relational data storage
+- [ ] recommend a high availability solution for relational data storage
 
 
 ## Design Infrastructure Solutions (25-30%)
