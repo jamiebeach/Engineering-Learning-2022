@@ -275,6 +275,7 @@
   | SAP HANA on Azure | Purposely built instances for [SAP HANA](https://www.ibm.com/topics/sap-hana) |
   
 - [ ] recommend an appropriately sized compute solution based on workload requirements
+  - **ACU** [Azure Compute Units](https://docs.microsoft.com/en-us/azure/virtual-machines/acu) : provides a way of comparing compute (CPU) performance across Azure SKUs.
 - [ ] recommend a container-based compute solution
 - [ ] recommend a serverless-based compute solution
 
