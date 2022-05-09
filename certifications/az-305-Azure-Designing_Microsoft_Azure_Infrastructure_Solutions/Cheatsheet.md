@@ -252,10 +252,14 @@
 ## Design Infrastructure Solutions (25-30%)
 
 ### Design a compute solution
-- [] recommend a virtual machine-based compute solution
-- [] recommend an appropriately sized compute solution based on workload requirements
-- [] recommend a container-based compute solution
-- [] recommend a serverless-based compute solution
+- [Decision tree for compute services (link)](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
+
+  ![compute choices](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/images/compute-choices.png)
+  
+- [ ] recommend a virtual machine-based compute solution
+- [ ] recommend an appropriately sized compute solution based on workload requirements
+- [ ] recommend a container-based compute solution
+- [ ] recommend a serverless-based compute solution
 
 ### Design an application architecture
 - [] recommend a caching solution for applications
