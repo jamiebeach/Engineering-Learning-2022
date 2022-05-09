@@ -257,6 +257,18 @@
   ![compute choices](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/images/compute-choices.png)
   
 - [ ] recommend a virtual machine-based compute solution
+  - VM Compute Types:
+  
+  | Type | Purpose |
+  |------|---------|
+  | A - Basic | Basic version - dev and test |
+  | A - Standard | General-purpose |
+  | B - Burstable | Can burst to full capacity when needed |
+  | D - General Purpose | Enterprise apps. DS - premium storage |
+  | DC - General Purpose Secured | Confidential multiparty data sharing, fraud detection, AML, blockchain, confidential usage analytics, intelligence analytics, confidential ML |
+  | E - Memory optimized | High memory-to-CPU ratio. ES - premium storage |
+  | F - CPU Optimized | High CPU-to-memory. FS - premium storage |
+  
 - [ ] recommend an appropriately sized compute solution based on workload requirements
 - [ ] recommend a container-based compute solution
 - [ ] recommend a serverless-based compute solution
