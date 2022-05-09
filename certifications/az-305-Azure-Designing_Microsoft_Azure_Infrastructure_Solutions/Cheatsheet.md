@@ -257,7 +257,7 @@
   ![compute choices](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/images/compute-choices.png)
   
 - [ ] recommend a virtual machine-based compute solution
-  - VM Compute Types:
+  - VM Compute Types ([from here](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)):
   
   | Type | Purpose |
   |------|---------|
