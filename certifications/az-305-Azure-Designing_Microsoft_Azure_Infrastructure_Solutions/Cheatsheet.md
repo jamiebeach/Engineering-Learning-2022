@@ -268,6 +268,11 @@
   | DC - General Purpose Secured | Confidential multiparty data sharing, fraud detection, AML, blockchain, confidential usage analytics, intelligence analytics, confidential ML |
   | E - Memory optimized | High memory-to-CPU ratio. ES - premium storage |
   | F - CPU Optimized | High CPU-to-memory. FS - premium storage |
+  | G - Godzilla | Very large instances ideal for large database and big data |
+  | H - High Performance Compute | Higher disk throughput and IO |
+  | M - Large Memory | Up to 3TB of RAM |
+  | N - GPU | GPU-enabled |
+  | SAP HANA on Azure | Purposely built instances for [SAP HANA](https://www.ibm.com/topics/sap-hana) |
   
 - [ ] recommend an appropriately sized compute solution based on workload requirements
 - [ ] recommend a container-based compute solution
