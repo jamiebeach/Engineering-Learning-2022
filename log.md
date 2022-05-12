@@ -1,3 +1,10 @@
+### 2022-05-11
+- Been working my way through Nick Coyler's AZ-304 AZ-305 Azure Architect Design Certification Prep course on Udemy. Really great. https://www.udemy.com/course/microsoft-az-301-certification-azure-architect-design/
+- But it's a long one!
+- Every day trying to get some time in and adding notes to the cheatsheet.
+- Will hopefully be through the course by May 20(ish). Then will hit the practice tests.
+
+
 ### 2022-04-18
 - A bit of time since my last log entry.
 - I did pass AI-900 and succeeded in the Spring Challenge that MS had. Unfortunate the delivery address to get the award needed to be in one of several EU countries so I couldn't receive the award. I looked at parcel shipping but would have been too expensive I think. Still happy to have done it. Another certification under my belt :)
