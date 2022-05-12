@@ -339,6 +339,10 @@ networks
 - [] optimize network performance for applications
   - Default routing vs User-Defined routing (UDR)
     - Sometimes may need to route traffic through something else, in which case you can create a UDR and attach to subnet.
-    
+  - Providing application with inbound internet access :
+    - Options :
+      - Give service public ip
+      - Put service behind LB with PIP
+      - Use Virtual network appliance that has a PIP
 - [] recommend a solution to optimize network security
 - [] recommend a load balancing and routing solution
