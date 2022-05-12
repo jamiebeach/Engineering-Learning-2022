@@ -299,6 +299,46 @@
 - [] recommend a connectivity solution that connects Azure resources to the internet
 - [] recommend a connectivity solution that connects Azure resources to on-premises
 networks
+  - Site-to-Site VPN
+    - S2S VPN gateway connection : connection over IPsec/IKE (IKEv1 or IKEv2) VPN tunnel
+    - requires VPN device in enterprise DC w public ip address assigned to it
+    - can't be behind a NAT
+    - Can be used for cross-premesis or hybrid configurations
+  - Point-toSite VPN
+    - Connect individual people to network. Great for remote work situations.
+    - No need for a VPN device or public ip address. (Can connect wherever Internet)
+    - Supports Windows 7-10, Server 2008 - 2012
+    - Throughput is 100Mbps
+    - Doesn't scale easily to many workstations.
+
+  - VPN Gateway SKU's
+    - https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
+
+      | Generation | SKU(s) | Max s2s Tunnels | Max p2s sstp Connections | Max p2s IKEv2/OpenVPN connections | Throughput | Zone-redundant |
+      |------------|--------|-------------|--------------------------|-----------------------------------|------------|----------------|
+      | Gen 1      | Basic  | 10          | 128                      |  Not supported                    | 100 Mbps    | No   |
+      | Gen 1      | gw1 - gw3 | 30       | 128                      | 250, 500, 1000                    | 650 Mbps, 1Gbps, 1.25 Gbps | No |
+      | Gen 1      | gw1AZ - gw3AZ |  30  | 128                      | 250, 500, 1000                    | 650 Mbps, 1Gbps, 1.25 Gbps | Yes |
+      | Gen 2      | gw2 - gw5 | 30, 100  | 128                      | 500, 1000, 5000, 10000            | 1.25 Gbps, 2.5 Gbps, 5 Gbps, 10 Gbps | No |
+      | Gen 2      | gw2 - gw5 | 30, 100  | 128                      | 500, 1000, 5000, 10000            | 1.25 Gbps, 2.5 Gbps, 5 Gbps, 10 Gbps | Yes |
+      
+    - Gen1 :
+      - Basic : max 10 tunnels, max 128 p2s connections
+  - ExpressRoute
+    - Customer Network -> Partner Edge (with circuit to Azure) -> Azure
+    - Layer 3 connectivity between networks
+    - Allows connectivity to all regions but can also add on premium addon to get global 
+    - Dynamic routing
+    - Redundancy along the way
+    - Can take many months to procure and setup
+    - Azure public/private or Microsoft peering require peering subnet (w public ip address for private\microsoft). 2 paths, each /30 CIDR range.
+    - Unlimited vs Metered.
+      - Unlimited option has higher cost but unlimited outbound traffic
+      - Metered has predetermined fee for outbound traffic
+      - 
 - [] optimize network performance for applications
+  - Default routing vs User-Defined routing (UDR)
+    - Sometimes may need to route traffic through something else, in which case you can create a UDR and attach to subnet.
+    
 - [] recommend a solution to optimize network security
 - [] recommend a load balancing and routing solution
