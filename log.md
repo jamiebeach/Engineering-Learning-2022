@@ -1,3 +1,10 @@
+### 2022-05-17
+- Been continuing through Nick Coyler's course on Udemy. Slower than I want. 
+- The network part is a big part of azure architecture. As expected, I guess. NSGs, firewalls, appliances at different layers. 
+- Fortunately a lot of this is also covered in the 104 exam, but 305 definitely goes way more granular, it seems. Haven't done any practice questions, so I don't actually know yet, but expecting some pretty detailed questions.
+- In parallel, I've been working on my first Azure tutorial video - deploying an app to an app service that utilizes an azure cognitive service and using github actions for ci\cd. Will see how that goes ;)
+- Targeting end of July for Azure exam, but based on others, will likely go longer. Still about 50% of the course material left to go through and then multiple weeks of practice questions no doubt.
+
 ### 2022-05-11
 - Been working my way through Nick Coyler's AZ-304 AZ-305 Azure Architect Design Certification Prep course on Udemy. Really great. https://www.udemy.com/course/microsoft-az-301-certification-azure-architect-design/
 - But it's a long one!
