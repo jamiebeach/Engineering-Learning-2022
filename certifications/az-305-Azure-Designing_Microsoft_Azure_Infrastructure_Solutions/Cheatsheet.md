@@ -295,7 +295,19 @@
 - [] recommend a solution for migrating unstructured data
 
 ### Design network solutions
-- [] recommend a network architecture solution based on workload requirements
+- [ ] recommend a network architecture solution based on workload requirements
+  - OSI (Open Source Interconnection) 7 Layer Model
+  
+  | Layer | Layer Name |  Example | Devices or Protocols |
+  |-------|------------|----------|----------------------|
+  | 7 | **Application** | End-user layer | User applications, SMTP |
+  | 6 | **Presentation** | Character code translation, data encryption or compression | JPEG, ASCII, GIF |
+  | 5 | **Session**     | Sync or send to ports: session, name resolution, logging | RCP, SQL, NetBIOS |
+  | 4 | **Transport**   | TCP, UDP | TCP, UDP, SPX |
+  | 3 | **Network**     | Routing, traffic control, packets, subnets | Routers, IP, ICMP |
+  | 2 | **Data Link**   | Frames, MAC address, Switch | Switch \ Bridge|
+  | 1 | **Physical**    | Cables, hubs, etc | hub |
+  
 - [] recommend a connectivity solution that connects Azure resources to the internet
 - [] recommend a connectivity solution that connects Azure resources to on-premises
 networks
@@ -345,4 +357,36 @@ networks
       - Put service behind LB with PIP
       - Use Virtual network appliance that has a PIP
 - [] recommend a solution to optimize network security
-- [] recommend a load balancing and routing solution
+- [ ] recommend a load balancing and routing solution
+  - Basic Load Balancer :
+    - Layer 4
+    - Scoped to availability sets only
+    - Supports up to 100 instances
+    - Service monitoring
+    - Automated reconfiguration
+    - 5 tuple hash-based distribution
+    - Internal and public options available
+    - Open by default
+  - Standard Load Balancer :
+    - Layer 4
+    - Supports up to 1000 instances
+    - Any machine in vnet (vs availability set)
+    - https support
+    - Supports availability zones
+    - Secure by default
+  - App Gateway
+    - Sticky sessions
+    - Layer 7 load balancing
+    - SSL offload
+    - end-to-end SSL
+    - web application firewall
+    - URL-based content routing (routing based on decisions based on traffic attributes)
+    - Requires own subnet
+    - Highly available
+    - Small, MEdium, Large
+  - Traffic MAnager
+    - Region based 
+
+  - Traffic Manager vs Front Door
+    - Traffic Manager handles any protocol while Front Door works onyl on HTTP
+    - Traffic Manager : on-premis routing vs Front Door
