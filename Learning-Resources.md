@@ -24,3 +24,8 @@
 - ### :computer: Interactive Training
     - [Katacoda - Interactive Learning](https://katacoda.com/)
     - [A Cloud Guru - CKAD](https://acloudguru.com/course/certified-kubernetes-application-developer-ckad)
+
+## ✔️ React Training
+
+- ### :computer: Interactive Training
+    - https://scrimba.com/
