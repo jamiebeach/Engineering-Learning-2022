@@ -140,6 +140,17 @@
 - [ ] recommend solutions to allow applications to access Azure resources
 - [ ] recommend a solution that securely stores passwords and secrets
 - [ ] recommend a solution for integrating applications into Azure Active Directory (Azure AD)
+  - [Manage user access (to applications) with access reviews](https://docs.microsoft.com/en-us/azure/active-directory/governance/manage-user-access-with-access-reviews) - Use AD access reviews.
+    - Has list of reviewers
+    - Can review Teams+Groups or by Application
+    - More info here - [Create Access Review](https://docs.microsoft.com/en-us/azure/active-directory/governance/create-access-review)
+
+  - [Azure AD Application Proxy](https://docs.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy) : allows access to on-prem applications through AD proxy. Uses an application proxy connector installed on the on-prem server.
+    - Part of "Enterprise Application"
+
+  - [Register app for Enterprise Application](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
+
+
 - [ ] recommend a user consent solution for applications
 
 ## Design Data Storage Solutions (25-30%)
@@ -198,6 +209,7 @@
     - HDInsight (hadoop, spark, hive, etc)
     - Data Lake Analytics : on demand job service for big data
     - Databricks
+      - [Databricks credential passthrough](https://docs.microsoft.com/en-us/azure/databricks/security/credential-passthrough/adls-passthrough)
 
    - **Azure Data Factory**
     - ETL, integration services
@@ -219,6 +231,8 @@
 
 ### Design a data storage solution for non-relational data
 - [] recommend access control solutions to data storage
+  - [Shared Access Signatures](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
+    - Grant limited access to Azure storage with SAS tokens. ie. Solution that allows access to a resource for a limited amount of time.
 - [] recommend a data storage solution to balance features, performance, and cost
 - [] design a data solution for protection and durability
 
