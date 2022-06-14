@@ -332,7 +332,19 @@
             - S30: 1024 GiB
             - S40: 2048 GiB
             - S50: 4095 GiB
-  
+  - Availability Sets:
+    - Group 2 or more VM's into a set
+    - Fault Domains and Update Domains
+    - Fault Domains : up to 3 separate racks in an availabiilty set. If outage to one domain, application unaffected.
+    - Update Domains : separation of underlying hosts for updating\maintenance.
+    - Use availability set for each tier of the application.
+    - Availability Zones : multiple zones per region. Can't have availability sets if zones are available for a region.
+
+  - Scale Sets
+    - can configure auto-scale rules
+    - can scale based on a variety of metrics (transactions, cpu, scheduled, etc)
+    - remember to account for sessions when scaling in on web servers.
+    - can set min and max nodes
 - [ ] recommend an appropriately sized compute solution based on workload requirements
   - **ACU** [Azure Compute Units](https://docs.microsoft.com/en-us/azure/virtual-machines/acu) : provides a way of comparing compute (CPU) performance across Azure SKUs.
 - [ ] recommend a container-based compute solution
