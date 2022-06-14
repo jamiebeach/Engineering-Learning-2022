@@ -270,8 +270,14 @@
 
   ![compute choices](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/images/compute-choices.png)
   
-- [ ] recommend a virtual machine-based compute solution
+- [ ] Recommend a virtual machine-based compute solution
   - VM Compute Types ([from here](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)):
+    - VM (IaaS)
+    - App Service (Managed PaaS)
+    - Container Service
+    - AKS
+    - Functions
+    - Azure Batch (managed service for running large-scale parallel things)
   
   | Type | Purpose |
   |------|---------|
@@ -287,6 +293,45 @@
   | M - Large Memory | Up to 3TB of RAM |
   | N - GPU | GPU-enabled |
   | SAP HANA on Azure | Purposely built instances for [SAP HANA](https://www.ibm.com/topics/sap-hana) |
+
+  - Compute Managed Disk Options : 
+    1. **Premium SSD** :
+        - Max throughput per disk : 250 MiB/s
+        - Max IOPS per disk : 7500 IOPS
+          - P4: 32 GiB (managed only)
+          - P6: 64 GiB (managed only)
+          - P10: 128 GiB
+          - P15: 256 GiB (managed only)
+          - P20: 512 GiB
+          - P30: 1024 GiB
+          - P40: 2048 GiB
+          - P50: 4095 GiB
+
+    2. **Standard SSD** : 
+        - Max throughput: 60 MiB/s
+        - Max IOPS: 500 IOPS
+        - Sizes (managed only):
+          - E10: 126 GiB
+          - E15: 256 GiB
+          - E20: 512 GiB
+          - E30: 1024 GiB
+          - E40: 2048 GiB
+          - E50: 4095 GiB
+
+    3. **Standard HDD Disk** :
+        - Max throughput: 60 MiB/s
+        - Max IOPS: 500 IOPS
+        - Sizes:
+            - 1 GiB - 4 TiB (4095 GiB) - unmanaged
+            - S4: 32 GiB
+            - S6: 64 GiB
+            - S10: 128 GiB
+            - S10: 128 GiB
+            - S15: 256 GiB
+            - S20: 512 GiB
+            - S30: 1024 GiB
+            - S40: 2048 GiB
+            - S50: 4095 GiB
   
 - [ ] recommend an appropriately sized compute solution based on workload requirements
   - **ACU** [Azure Compute Units](https://docs.microsoft.com/en-us/azure/virtual-machines/acu) : provides a way of comparing compute (CPU) performance across Azure SKUs.
