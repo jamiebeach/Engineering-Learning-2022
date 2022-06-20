@@ -219,22 +219,23 @@
 
 - [ ] recommend a solution for database scalability
 - [ ] recommend a solution for encrypting data at rest, data in transmission, and data in use
+  - To ensure storage account is envrypted at rest, use Azure Storage Encryption
 
 ### Design data integration
 - [] recommend a solution for data integration
 - [] recommend a solution for data analysis
 
 ### Recommend a data storage solution
-- [] recommend a solution for storing relational data
-- [] recommend a solution for storing semi-structured data
-- [] recommend a solution for storing non-relational data
+- [ ] recommend a solution for storing relational data
+- [ ] recommend a solution for storing semi-structured data
+- [ ] recommend a solution for storing non-relational data
 
 ### Design a data storage solution for non-relational data
-- [] recommend access control solutions to data storage
+- [ ] recommend access control solutions to data storage
   - [Shared Access Signatures](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
     - Grant limited access to Azure storage with SAS tokens. ie. Solution that allows access to a resource for a limited amount of time.
-- [] recommend a data storage solution to balance features, performance, and cost
-- [] design a data solution for protection and durability
+- [ ] recommend a data storage solution to balance features, performance, and cost
+- [ ] design a data solution for protection and durability
 
 ## Design Business Continuity Solutions (10-15%)
 
@@ -359,11 +360,26 @@
 - [] recommend a solution for API integration
 
 ### Design migrations
-- [] evaluate a migration solution that leverages the Cloud Adoption Framework for Azure
-- [] assess and interpret on-premises servers, data, and applications for migration
-- [] recommend a solution for migrating applications and virtual machines
-- [] recommend a solution for migrating databases
-- [] recommend a solution for migrating unstructured data
+- [ ] evaluate a migration solution that leverages the Cloud Adoption Framework for Azure
+- [ ] assess and interpret on-premises servers, data, and applications for migration
+- [ ] recommend a solution for migrating applications and virtual machines
+  - Azure Migrate _appliance_ : lightweight appliance that the Azure Migrate: Discovery and assessment tool uses.
+    - Deployed on-prem as physical or virtual
+    - continually sends server metadata to Azure Migrate
+    - Connects to Azure through ExpressRoute + microsoft peering.
+    - Can connect to multiple vCenter Servers
+    - Can discover up to 10k servers in VMWare, 5000 servers in Hyper-V, 1000 phusical servers w single appliance.
+  - Azure Migrate:
+    - Centralized hub to assess and migrate on-prem servers, infra, apps, data to Azure
+    - **Discovery and Assessment**: discover + assess on-prem servers running VMWare, Hyper-V and physical
+    - **Server Migration**: migrate vmware, hyper-v and physical servers and public cloud VMs to Azure
+    - **Data Migration Assistant**: Assess SQL Server dbs for migration. 
+    - **Database Migration Service**: Migrate on-prem dbs to Azure
+    - **Movere**: Assess servers, SaaS - presents entire IT environment in single day.
+    - **Web migration assistant**: Assess on-prem web apps and migrate to Azure.
+    - **Azure Data Box**: Migrate offline data
+- [ ] recommend a solution for migrating databases
+- [ ] recommend a solution for migrating unstructured data
 
 ### Design network solutions
 - [ ] recommend a network architecture solution based on workload requirements
