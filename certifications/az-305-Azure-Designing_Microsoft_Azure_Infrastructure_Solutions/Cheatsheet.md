@@ -435,15 +435,25 @@ networks
       - Unlimited option has higher cost but unlimited outbound traffic
       - Metered has predetermined fee for outbound traffic
       - 
-- [] optimize network performance for applications
+- [ ] optimize network performance for applications
   - Default routing vs User-Defined routing (UDR)
     - Sometimes may need to route traffic through something else, in which case you can create a UDR and attach to subnet.
+  - Default Routing:
+    - If address within VNew address prefix : route to local VNet
+    - If address within on-prem address prefixes or BGP routes - route to gateway
+    - If address not part of VNet or BGP or LSN routes - route to internet via NAT
+    - If destination is Azure datacenter address and ExpressRoute public peering enabled - route to gateway
+    - If destination is Azure datacenter w S2S/ExpressRoute without public peering -  route to Host NAT for Internet path, but do not leave datacenter.
+  - User defined routing :
+    - https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview
+    - You can't create or remove system routes, but you can override some system routes with custom routes.
+
   - Providing application with inbound internet access :
     - Options :
       - Give service public ip
       - Put service behind LB with PIP
       - Use Virtual network appliance that has a PIP
-- [] recommend a solution to optimize network security
+- [ ] recommend a solution to optimize network security
 - [ ] recommend a load balancing and routing solution
   - Basic Load Balancer :
     - Layer 4
