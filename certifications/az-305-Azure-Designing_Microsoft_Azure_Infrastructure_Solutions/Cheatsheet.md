@@ -434,7 +434,15 @@ networks
     - Unlimited vs Metered.
       - Unlimited option has higher cost but unlimited outbound traffic
       - Metered has predetermined fee for outbound traffic
-      - 
+    - Connectivity Models :
+      - Cloud Exchange Co-location - equinex
+      - Point-to-Point Ethernet Connection - dedicated w partner
+      - Any-to-any (IPVPN) connection - over mpls wan type of scenario
+    - Peering : 
+      - All types require /30 address space on both peered subnets
+      - Private Peering
+      - Public Peering
+      - Microsoft Peering
 - [ ] optimize network performance for applications
   - Default routing vs User-Defined routing (UDR)
     - Sometimes may need to route traffic through something else, in which case you can create a UDR and attach to subnet.
