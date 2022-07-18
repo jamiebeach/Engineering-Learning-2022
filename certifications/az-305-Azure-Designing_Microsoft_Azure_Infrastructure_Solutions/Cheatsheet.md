@@ -489,6 +489,8 @@ networks
     - Requires own subnet
     - Highly available
     - Small, MEdium, Large
+    - Single region (vs Traffic Manager or Front Door)
+   
   - Traffic MAnager
     - Region based 
 
