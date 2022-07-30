@@ -262,6 +262,7 @@
 - [ ] recommend a high availability solution for compute
 - [ ] recommend a high availability solution for non-relational data storage
 - [ ] recommend a high availability solution for relational data storage
+  - https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sql
 
 
 ## Design Infrastructure Solutions (25-30%)
