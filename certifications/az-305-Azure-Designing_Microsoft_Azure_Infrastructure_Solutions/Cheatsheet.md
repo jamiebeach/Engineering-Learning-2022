@@ -356,6 +356,7 @@ Azure AD DS integrates with your existing Azure AD tenant. This integration lets
     - can scale based on a variety of metrics (transactions, cpu, scheduled, etc)
     - remember to account for sessions when scaling in on web servers.
     - can set min and max nodes
+  - **Azure CycleCloud**: tool for orchestrating and managing High Performance Computing (HPC) environments on Azure
 - [ ] recommend an appropriately sized compute solution based on workload requirements
   - **ACU** [Azure Compute Units](https://docs.microsoft.com/en-us/azure/virtual-machines/acu) : provides a way of comparing compute (CPU) performance across Azure SKUs.
 - [ ] recommend a container-based compute solution
