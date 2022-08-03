@@ -268,8 +268,10 @@ Azure AD DS integrates with your existing Azure AD tenant. This integration lets
 - [ ] identify the availability requirements of Azure resources
 - [ ] recommend a high availability solution for compute
 - [ ] recommend a high availability solution for non-relational data storage
+  - File Shares: https://docs.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal
 - [ ] recommend a high availability solution for relational data storage
   - https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sql
+  
 
 
 ## Design Infrastructure Solutions (25-30%)
