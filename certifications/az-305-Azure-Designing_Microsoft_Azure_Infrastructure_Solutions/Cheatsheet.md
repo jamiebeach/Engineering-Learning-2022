@@ -453,6 +453,10 @@ networks
       - Private Peering
       - Public Peering
       - Microsoft Peering
+  - In Logic App: 
+    - In multi-tenant Azure Logic Apps, you need the on-premises data gateway installed on a local computer and a data gateway resource in Azure
+    - (https://docs.microsoft.com/en-us/azure/connectors/connectors-create-api-sqlazure?tabs=consumption)
+    
 - [ ] optimize network performance for applications
   - Default routing vs User-Defined routing (UDR)
     - Sometimes may need to route traffic through something else, in which case you can create a UDR and attach to subnet.
