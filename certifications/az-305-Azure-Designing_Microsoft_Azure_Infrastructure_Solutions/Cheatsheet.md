@@ -132,6 +132,13 @@
       - Pviileged Role Admin
       - Security Admin
 
+    - Azure Active Directory Domain Services (Azure AD DS)
+      - provides managed domain services (ex. LDAP)
+      - An Azure AD DS managed domain lets you run legacy applications in the cloud that can't use modern authentication methods
+      - or where you don't want directory lookups to always go back to an on-premises AD DS environment.
+      - You can lift and shift those legacy applications from your on-premises environment into a managed domain
+      
+Azure AD DS integrates with your existing Azure AD tenant. This integration lets users sign in to services and applications connected to the managed domain using their existing credentials. You can also use existing groups and user accounts to secure access to resources. These features provide a smoother lift-and-shift of on-premises resources to Azure.
 ### Design governance
 - [ ] recommend an organizational and hierarchical structure for Azure resources
 - [ ] recommend a solution for enforcing and auditing compliance
